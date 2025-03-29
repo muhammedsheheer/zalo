@@ -4,11 +4,13 @@ import Navbar from "@/components/Navbar";
 import Hero from "./(section)/Hero";
 import Special from "./(section)/(special)/Special";
 import Reviews from "./(section)/Review";
-import Reserve from "./(section)/Reserve";
 import Follow from "./(section)/Follow";
 import Highlights from "./(section)/Highlights";
 import Menu from "./(section)/Menu";
 import About from "./(section)/About";
+import ReserveNew from "./(section)/ReserveNew";
+import SocialMedia from "./(section)/SocialMedia";
+import Map from "./(section)/Map";
 
 export default function HomePage() {
   return (
@@ -20,9 +22,10 @@ export default function HomePage() {
         <Menu />
         <Special />
         <Highlights />
-        <Reserve />
+        <ReserveNew />
         <Reviews />
-        <Follow />
+        <SocialMedia />
+        <Map />
         <Footer />
       </div>
       {/* <div className="fixed bottom-6 right-10 z-50 hidden md:block">

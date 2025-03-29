@@ -12,7 +12,7 @@ const OPTIONS: EmblaOptionsType = { loop: true };
 const Special = ({}) => {
   const { modelData } = useRestaurant();
   return (
-    <section className="relative flex h-full w-full justify-center bg-[#394F3B] py-12">
+    <section className="relative flex h-full w-full justify-center bg-[#714C23] py-12">
       <div className="pointer-events-none absolute left-0 top-0 h-full w-full overflow-hidden"></div>
       <div className="flex flex-col items-center justify-center gap-2">
         <div className="flex flex-col items-center justify-center gap-8 md:flex-row md:justify-between md:gap-96 2xl:gap-[600px]">
@@ -28,7 +28,7 @@ const Special = ({}) => {
             <Link href={"/menu"}>
               <Button
                 className={
-                  "flex flex-row items-center justify-center gap-1 rounded-full border border-[#fff] bg-transparent px-7 py-7 font-playfair text-sm font-[500] capitalize tracking-[1.08px] text-[#F7F4ED] hover:bg-[#536e55] hover:text-[#F7F4ED]"
+                  "flex flex-row items-center justify-center gap-1 rounded-full border border-[#fff] bg-transparent px-7 py-7 font-playfair text-sm font-[500] capitalize tracking-[1.08px] text-[#F7F4ED] hover:bg-[#9a6b35] hover:text-[#F7F4ED]"
                 }
               >
                 View Menu <ArrowRight className="w-5 text-[#F7F4ED]" />

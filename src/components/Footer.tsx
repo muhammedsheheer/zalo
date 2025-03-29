@@ -19,27 +19,31 @@ const Footer = ({}) => {
                     width={281}
                     height={74}
                     alt="logo"
-                    className="w-28"
+                    className="w-36 md:w-60"
                   />
                 </Link>
               </div>
               <div className="flex flex-col items-center gap-2 md:items-start md:pt-4">
                 <div className="flex flex-col items-center md:items-start">
-                  <span className="flex flex-col text-center font-open_sans text-base font-[600] uppercase text-[#323232] md:text-start tracking-[1px]">Contact</span>
-                  <br/>
+                  <span className="flex flex-col text-center font-open_sans text-base font-[600] uppercase tracking-[1px] text-[#323232] md:text-start">
+                    Contact
+                  </span>
+                  <br />
                   <span>
                     <Link
-                      className="flex flex-col text-center font-open_sans text-base font-[400] uppercase text-[#323232] md:text-start tracking-[1px]"
+                      className="flex flex-col text-center font-open_sans text-base font-[400] uppercase tracking-[1px] text-[#323232] md:text-start"
                       target="_blank"
                       href={"https://g.co/kgs/34ojPbT"}
                     >
-                      69-71 London Rd, Stockton<br/> Heath, Warrington WA4 6SG,<br/> United Kingdom
+                      69-71 London Rd, Stockton
+                      <br /> Heath, Warrington WA4 6SG,
+                      <br /> United Kingdom
                     </Link>
                   </span>
-                  <br/>
+                  <br />
                   <span>
                     <Link
-                      className="font-open_sans text-base font-[400] uppercase text-[#323232] tracking-[1px]"
+                      className="font-open_sans text-base font-[400] uppercase tracking-[1px] text-[#323232]"
                       href={"tel:01925 269369"}
                     >
                       01925 269369{" "}
@@ -47,10 +51,10 @@ const Footer = ({}) => {
                   </span>
                   <span>
                     <Link
-                      className="font-open_sans text-base font-[400] uppercase text-[#323232] tracking-[1px]"
+                      className="font-open_sans text-base font-[400] uppercase tracking-[1px] text-[#323232]"
                       href={"mailto:info@zaloscafe.co.uk"}
                     >
-                     info@zaloscafe.co.uk
+                      info@zaloscafe.co.uk
                     </Link>
                   </span>
                 </div>
@@ -62,14 +66,14 @@ const Footer = ({}) => {
                 >
                   <Icons.instagram className="text-[#323232]" />
                 </Link>
-                <Link
+                {/* <Link
                   href={
                     "https://www.tripadvisor.in/Restaurant_Review-g187069-d32861312-Reviews-Levant_Elixir_Of_Co_existence-Manchester_Greater_Manchester_England.html"
                   }
                   target="_blank"
                 >
                   <Icons.unknown className="text-[#323232]" />
-                </Link>
+                </Link> */}
                 <Link href={"https://g.co/kgs/kfvqUBt"} target="_blank">
                   <Icons.google className="text-[#323232]" />
                 </Link>
@@ -98,7 +102,7 @@ const Footer = ({}) => {
                 href={"#"}
                 className="font-open_sans text-base font-[400] uppercase tracking-[2.4px] text-[#323232]"
               >
-               Products
+                Products
               </Link>
               {/* <Link
                 href={"/about-us"}
@@ -141,7 +145,7 @@ const Footer = ({}) => {
                   tuesday - Thursday{" "}
                 </span>
                 <span className="font-open_sans text-base font-[400] uppercase tracking-[1.96px] text-[#323232]">
-                8 AM - 11 PM{" "}
+                  8 AM - 11 PM{" "}
                 </span>
               </div>
               <div className="h-full w-full border-b-[1px] border-b-[#D9D9D9]" />
@@ -151,7 +155,7 @@ const Footer = ({}) => {
                   Friday - Saturday{" "}
                 </span>
                 <span className="font-open_sans text-base font-[400] uppercase tracking-[1.96px] text-[#323232]">
-                9 AM - 11 PM{" "}
+                  9 AM - 11 PM{" "}
                 </span>
               </div>
               <div className="h-full w-full border-b-[1px] border-b-[#D9D9D9]" />
@@ -161,7 +165,7 @@ const Footer = ({}) => {
                   Sunday{" "}
                 </span>
                 <span className="font-open_sans text-base font-[400] uppercase tracking-[1.96px] text-[#323232]">
-                9 AM - 10 PM{" "}
+                  9 AM - 10 PM{" "}
                 </span>
               </div>
             </div>
@@ -173,11 +177,11 @@ const Footer = ({}) => {
           <div className="h-full w-full border-b-[1px] border-b-[#D9D9D9]" />
           <div className="flex flex-col items-center justify-center gap-1 md:flex-row md:items-start md:justify-between">
             <Link href={"https://foodo.ai/"} target="_blank">
-              <span className="font-open_sans pb-6 text-xs font-[400] lowercase tracking-[1px] text-[#323232]">
+              <span className="pb-6 font-open_sans text-xs font-[400] lowercase tracking-[1px] text-[#323232]">
                 Powerd by fo0do{" "}
               </span>
             </Link>
-            <p className="font-open_sans pb-6 text-xs font-[400] lowercase tracking-[1px] text-[#323232]">
+            <p className="pb-6 font-open_sans text-xs font-[400] lowercase tracking-[1px] text-[#323232]">
               © 2025 ZALO`S CAFE ALL RIGHTS RESERVED
             </p>
           </div>

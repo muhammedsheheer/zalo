@@ -220,7 +220,7 @@ const Contact = ({}) => {
                   </div>
                   <div className="flex w-full flex-col pt-7 lg:flex-row">
                     <Button
-                      className="font-bai w-full rounded-2xl bg-[#394F3B] py-6 text-white hover:bg-[#536e55]"
+                      className="font-bai w-full rounded-2xl bg-[#714C23] py-6 text-white hover:bg-[#976935]"
                       disabled={bookTableMutation.isPending}
                     >
                       Contact US

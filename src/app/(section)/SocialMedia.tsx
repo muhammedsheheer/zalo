@@ -4,24 +4,24 @@ import React from "react";
 
 function SocialMedia() {
   return (
-    <section className="flex h-fit w-full flex-col gap-7 px-4 md:px-[60px] pt-20">
-      <p className="w-full text-center font-playfair text-4xl md:text-6xl text-black">
+    <section className="flex h-fit w-full flex-col gap-7 px-4 pt-20 md:px-[60px]">
+      <p className="font-times_new_roman w-full text-center text-4xl text-black md:text-6xl">
         Slide Into Our socials
       </p>
-      <div className="flex w-full items-center justify-between px-4 md:px-[100px] py-3 md:py-16">
-        <Icons.instagram className="h-12 md:h-24 w-12 md:w-24 text-[#714C23]" />
-        <p className="font-sofia_sans text-xl md:text-4xl font-[600] uppercase tracking-[2px] text-[#714C23]">
+      <div className="flex w-full items-center justify-between px-4 py-3 md:px-[100px] md:py-16">
+        <Icons.instagram className="h-12 w-12 text-[#714C23] md:h-24 md:w-24" />
+        <p className="font-sofia_sans text-xl font-[600] uppercase tracking-[2px] text-[#714C23] md:text-4xl">
           @loremepsum
         </p>
       </div>
-      <div className="grid w-full grid-cols-1 md:grid-cols-3 gap-3">
+      <div className="grid w-full grid-cols-1 gap-3 md:grid-cols-3">
         <Image
           src="/images/home/social/1.png"
           width={553}
           height={541}
           alt="social"
         />
-        <div className="hidden md:block relative h-full w-full">
+        <div className="relative hidden h-full w-full md:block">
           <Image
             src="/images/home/social/2.png"
             width={553}

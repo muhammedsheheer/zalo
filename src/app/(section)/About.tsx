@@ -6,30 +6,39 @@ import React from "react";
 
 const About = () => {
   return (
-    <section className="h-full w-full bg-[#F7F4ED] py-12 pl-4 pr-4 md:py-24 md:pl-16 md:pr-28">
-      <div className="flex flex-col items-center justify-center gap-6 md:flex-row md:gap-20">
-        <div className="w-full md:w-[37%]">
+    <section className="h-full w-full bg-[#F7F4ED] py-12 pl-4 pr-4 md:py-0 md:pl-0 md:pr-0">
+      <div className="flex h-full w-full flex-col items-center justify-center gap-6 md:flex-row md:items-start md:justify-start md:gap-0">
+        <div className="hidden w-full md:block md:w-[22%]">
           <Image
             src={"/images/home/about/image1.png"}
             width={281}
             height={74}
             alt="logo"
-            className="h-auto w-full"
+            className="h-[300px] w-full md:h-[650px]"
           />
         </div>
-        <div className="flex w-full flex-col gap-4 md:ml-8 md:w-[35%]">
+        <div className="w-full md:ml-4 md:w-[33%]">
+          <Image
+            src={"/images/home/about/image2.png"}
+            width={281}
+            height={74}
+            alt="logo"
+            className="h-[300px] w-full object-cover md:h-[650px]"
+          />
+        </div>
+        <div className="flex w-full flex-col gap-4 md:ml-[10%] md:mt-[12%] md:w-[40%]">
           <div className="flex flex-col gap-2">
             <span className="font-playfair text-sm font-[400] capitalize tracking-[1.2px] text-[#040404]">
               About us
             </span>
-            <h1 className="font-italiana text-4xl font-[400] capitalize text-[#040404] md:text-5xl">
+            <h1 className="font-times_new_roman text-4xl font-[400] capitalize text-[#040404] md:text-5xl">
               Welcome <br />
-              to Blends Cafe
+              to Zalo’s Cafe
             </h1>
           </div>
           <p className="w-full max-w-[400px] font-inter text-sm font-[300] text-[#262626] md:text-base">
-            At Blends Cafe, we believe in more than just great coffee—we create
-            experiences. Nestled in the heart , our cafe is a haven for coffee
+            At Zola’s Cafe, we believe in more than just great coffee—we create
+            experiences. Nestled in the heart, our cafe is a haven for coffee
             lovers, food enthusiasts, and those looking for a warm, inviting
             space to relax or work.
           </p>
@@ -37,7 +46,7 @@ const About = () => {
             <Link href={"/menu"}>
               <Button
                 className={
-                  "flex flex-row items-center justify-center gap-1 rounded-full bg-[#394F3B] px-7 py-7 font-playfair text-sm font-[600] capitalize tracking-[1.08px] text-[#F7F4ED] hover:bg-[#536e55] hover:text-[#F7F4ED]"
+                  "flex flex-row items-center justify-center gap-1 rounded-none bg-[#714C23] px-7 py-7 font-playfair text-sm font-[600] capitalize tracking-[1.08px] text-[#F7F4ED] hover:bg-[#976935] hover:text-[#F7F4ED]"
                 }
               >
                 View Menu <ArrowRight className="w-5 text-[#F7F4ED]" />
@@ -45,13 +54,13 @@ const About = () => {
             </Link>
           </div>
         </div>
-        <div className="w-full md:w-[28%]">
+        <div className="hidden w-full md:block md:w-[5%]">
           <Image
-            src={"/images/home/about/image2.png"}
+            src={"/images/home/about/image3.png"}
             width={281}
             height={74}
             alt="logo"
-            className="h-auto w-full"
+            className="h-auto w-full md:h-[650px]"
           />
         </div>
       </div>

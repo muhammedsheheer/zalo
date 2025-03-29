@@ -124,6 +124,13 @@
   }
 }
 
+@font-face {
+  font-family: "times_new_roman";
+  src: url("/font/times new roman.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 .overflow-hidden {
   overflow: hidden;
 }

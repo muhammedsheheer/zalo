@@ -7,21 +7,23 @@ import {
   Open_Sans,
   Inter,
   Sofia_Sans_Condensed,
-  Poppins,
   Playfair_Display,
-  Cormorant,
-  Joan,
   Italiana,
-  Road_Rage,
   Manrope,
 } from "next/font/google";
 import Providers from "@/app/Providers";
 
 export const metadata: Metadata = {
-  title: "Blends Cafe",
-  description: "Blends Cafe",
+  title: "Zalo",
+  description: "Zalo",
   icons: [{ rel: "icon", url: "/images/home/hero/logo.png", sizes: "11x11" }],
 };
+
+const playfair = Playfair_Display({
+  subsets: ["latin"],
+  variable: "--font-playfair",
+  weight: ["400", "500", "600", "700", "800"],
+});
 
 const inter = Inter({
   subsets: ["latin"],
@@ -35,15 +37,15 @@ const italiana = Italiana({
   weight: ["400"],
 });
 
-const sofia_sans = Sofia_Sans_Condensed({
-  subsets: ["latin"],
-  variable: "--font-sofia_sans",
-  weight: ["400", "500", "600", "700", "800"],
-});
-
 const manrope = Manrope({
   subsets: ["latin"],
   variable: "--font-manrope",
+  weight: ["400", "500", "600", "700", "800"],
+});
+
+const sofia_sans = Sofia_Sans_Condensed({
+  subsets: ["latin"],
+  variable: "--font-sofia_sans",
   weight: ["400", "500", "600", "700", "800"],
 });
 
@@ -51,36 +53,6 @@ const open_sans = Open_Sans({
   subsets: ["latin"],
   variable: "--font-open_sans",
   weight: ["400", "500", "600", "700", "800"],
-});
-
-const playfair = Playfair_Display({
-  subsets: ["latin"],
-  variable: "--font-playfair",
-  weight: ["400", "500", "600", "700", "800"],
-});
-
-const poppins = Poppins({
-  subsets: ["latin"],
-  variable: "--font-poppins",
-  weight: ["400", "500", "600", "700", "800"],
-});
-
-const cormorant = Cormorant({
-  subsets: ["latin"],
-  variable: "--font-cormorant",
-  weight: ["400", "500", "600", "700"],
-});
-
-const joan = Joan({
-  subsets: ["latin"],
-  variable: "--font-joan",
-  weight: ["400"],
-});
-
-const road_rage = Road_Rage({
-  subsets: ["latin"],
-  variable: "--font-road_rage",
-  weight: ["400"],
 });
 
 export default function RootLayout({
@@ -96,11 +68,7 @@ export default function RootLayout({
           sofia_sans.variable,
           open_sans.variable,
           playfair.variable,
-          poppins.variable,
-          cormorant.variable,
-          joan.variable,
           italiana.variable,
-          road_rage.variable,
           manrope.variable,
         )}
       >
