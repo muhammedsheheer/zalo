@@ -21,7 +21,7 @@ const Special = ({}) => {
               Specials
             </span>
             <h6 className="text-center font-italiana text-5xl font-[400] capitalize text-[#F7F4ED] md:text-7xl">
-              Blends Specials
+              Zalo Specials
             </h6>
           </div>
           <div>

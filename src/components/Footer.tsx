@@ -59,7 +59,9 @@ const Footer = ({}) => {
               </div>
               <div className="flex flex-row items-center gap-2 md:gap-4">
                 <Link
-                  href={"https://www.instagram.com/levantelixirofco/"}
+                  href={
+                    "https://www.instagram.com/zaloscafelymm?igsh=MWpmbGlkYWM2NmQ5MQ%3D%3D"
+                  }
                   target="_blank"
                 >
                   <Icons.instagram className="text-[#323232]" />

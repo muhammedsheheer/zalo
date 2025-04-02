@@ -14,7 +14,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useMutation } from "@tanstack/react-query";
 import axios from "axios";
-import { ArrowRight, MapPin, Phone } from "lucide-react";
+import { ArrowRight, Mail, MapPin, Phone } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import { useForm } from "react-hook-form";
@@ -126,8 +126,28 @@ const Contact = ({}) => {
                   </Link>
                 </div>
               </div>
+              <div className="flex items-center gap-6">
+                <div>
+                  <div className="h-fit w-fit rounded-full p-2">
+                    <Mail className="text-[#000]" />
+                  </div>
+                </div>
+                <div className="flex flex-col gap-4">
+                  <Link
+                    className="font-open_sans text-base font-[400] uppercase tracking-[1px] text-[#323232]"
+                    href={"mailto:info@zaloscafe.co.uk"}
+                  >
+                    info@zaloscafe.co.uk
+                  </Link>
+                </div>
+              </div>
               <div className="flex items-center justify-start gap-4">
-                <Link href={""} target="_blank">
+                <Link
+                  href={
+                    "https://www.instagram.com/zaloscafelymm?igsh=MWpmbGlkYWM2NmQ5MQ%3D%3D"
+                  }
+                  target="_blank"
+                >
                   <Icons.instagram className="text-[#000]" />
                 </Link>
                 <Link

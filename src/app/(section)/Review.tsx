@@ -20,7 +20,7 @@ const Reviews = ({}) => {
             <span className="text-center font-playfair text-sm font-[400] capitalize tracking-[1.2px] text-[#040404]">
               Reviews{" "}
             </span>
-            <h1 className="font-times_new_roman text-center text-5xl font-[400] capitalize text-[#040404] md:text-7xl">
+            <h1 className="text-center font-times_new_roman text-5xl font-[400] capitalize text-[#040404] md:text-7xl">
               Hear Our Guests{" "}
             </h1>
           </div>
