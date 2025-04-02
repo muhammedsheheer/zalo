@@ -19,8 +19,8 @@ const JoinUs = ({}) => {
             Unforgettable Feast
           </h1>
           <p className="max-w-[450px] text-center font-[600] leading-[160%] text-[#ffff]">
-            Whether it`s a cozy dinner or a grand gathering, Levant invites you
-            to embark on an extraordinary culinary journey. From authentic
+            Whether it’s a cozy dinner or a grand gathering, Zalos Café invites
+            you to embark on an extraordinary culinary journey. From authentic
             Middle Eastern flavors to hand-selected ingredients, every dish is a
             tribute to our rich heritage and passion for excellence. Immerse
             yourself in an experience where tradition meets innovation, and

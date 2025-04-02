@@ -91,13 +91,12 @@ const Contact = ({}) => {
                   </div>
                 </div>
                 <div className="flex flex-col gap-4">
-                  <Link href={""} target="_blank">
+                  <Link href={"https://g.co/kgs/rQAnich"} target="_blank">
                     <p className="text-[#000]">
-                      9 Barlow Moor Rd, Didsbury, Manchester
-                      <br /> M20 6TN, United Kingdom
+                      31 The Cross, Lymm WA13 <br /> 0HR, United Kingdom
                     </p>
                   </Link>
-                  <Link href={""} target="_blank">
+                  <Link href={"https://g.co/kgs/rQAnich"} target="_blank">
                     <p className="flex items-center gap-2 text-sm text-[#000]">
                       <span>Get Direction</span>
                       <ArrowRight className="text-[#000]" />
@@ -122,8 +121,8 @@ const Contact = ({}) => {
                   </div>
                 </div>
                 <div className="flex flex-col gap-4">
-                  <Link href="tel:+01614230494" className="text-[#000]">
-                    0161 423 04 94{" "}
+                  <Link href="tel:+441925982168" className="text-[#000]">
+                    +44 1925 982168
                   </Link>
                 </div>
               </div>
@@ -131,10 +130,15 @@ const Contact = ({}) => {
                 <Link href={""} target="_blank">
                   <Icons.instagram className="text-[#000]" />
                 </Link>
-                <Link href={""} target="_blank">
-                  <Icons.unknown className="text-[#000]" />
+                <Link
+                  href={
+                    "https://www.facebook.com/p/Zalos-Cafe-Lymm-61566589567442/"
+                  }
+                  target="_blank"
+                >
+                  <Icons.facebook className="text-[#000]" />
                 </Link>
-                <Link href={""} target="_blank">
+                <Link href={"https://g.co/kgs/rQAnich"} target="_blank">
                   <Icons.google className="text-[#000]" />
                 </Link>
                 {/* <Link href='https://www.facebook.com/Istanbulwoolton/'>
@@ -232,7 +236,7 @@ const Contact = ({}) => {
           </div>
         </div>
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2260.19196832903!2d-2.2318719!3d53.4175839!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487bb3df9225b6c3%3A0x365fe3576a0f6abb!2sLevant%20Elixir%20of%20Co-Existence%20Restaurant!5e1!3m2!1sen!2sin!4v1742976588803!5m2!1sen!2sin"
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d72387.97118608108!2d-2.5601467!3d53.3812233!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487b0192372cc103%3A0x32b5b64929f4e3bd!2sZalo&#39;s%20Cafe%20Lymm!5e1!3m2!1sen!2sin!4v1743584162794!5m2!1sen!2sin"
           style={{ border: 0 }}
           allowFullScreen
           loading="lazy"

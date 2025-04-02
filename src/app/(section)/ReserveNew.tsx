@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
+import Link from "next/link";
 
 function ReserveNew() {
   return (
@@ -27,7 +28,9 @@ function ReserveNew() {
           atmosphere.
         </p>
         <Button className="flex w-fit items-center justify-center gap-1 rounded-full bg-[#714c23] px-6 py-7">
-          <span className="font-playfair text-lg">Book Now</span>
+          <Link href={"/table-booking"}>
+            <span className="font-playfair text-lg">Book Now</span>
+          </Link>
           <ArrowRight className="mt-1 h-5 w-5" />
         </Button>
       </div>

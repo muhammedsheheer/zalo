@@ -33,20 +33,18 @@ const Footer = ({}) => {
                     <Link
                       className="flex flex-col text-center font-open_sans text-base font-[400] uppercase tracking-[1px] text-[#323232] md:text-start"
                       target="_blank"
-                      href={"https://g.co/kgs/34ojPbT"}
+                      href={"https://g.co/kgs/rQAnich"}
                     >
-                      69-71 London Rd, Stockton
-                      <br /> Heath, Warrington WA4 6SG,
-                      <br /> United Kingdom
+                      31 The Cross, Lymm WA13 <br /> 0HR, United Kingdom
                     </Link>
                   </span>
                   <br />
                   <span>
                     <Link
                       className="font-open_sans text-base font-[400] uppercase tracking-[1px] text-[#323232]"
-                      href={"tel:01925 269369"}
+                      href={"tel:+441925982168"}
                     >
-                      01925 269369{" "}
+                      +44 1925 982168
                     </Link>
                   </span>
                   <span>
@@ -74,11 +72,13 @@ const Footer = ({}) => {
                 >
                   <Icons.unknown className="text-[#323232]" />
                 </Link> */}
-                <Link href={"https://g.co/kgs/kfvqUBt"} target="_blank">
+                <Link href={"https://g.co/kgs/rQAnich"} target="_blank">
                   <Icons.google className="text-[#323232]" />
                 </Link>
                 <Link
-                  href={"https://www.facebook.com/levantelixirofco"}
+                  href={
+                    "https://www.facebook.com/p/Zalos-Cafe-Lymm-61566589567442/"
+                  }
                   target="_blank"
                 >
                   <Icons.facebook className="text-[#323232]" />
@@ -98,18 +98,13 @@ const Footer = ({}) => {
               >
                 Menu
               </Link>
+
               <Link
-                href={"#"}
+                href={"/about-us"}
                 className="font-open_sans text-base font-[400] uppercase tracking-[2.4px] text-[#323232]"
               >
-                Products
-              </Link>
-              {/* <Link
-                href={"/about-us"}
-                className="font-open_sans text-xs font-[700] uppercase tracking-[2.4px] text-[#fff]"
-              >
                 About
-              </Link> */}
+              </Link>
 
               {/* <Link
                 href={""}
@@ -142,10 +137,10 @@ const Footer = ({}) => {
 
               <div className="flex w-full flex-row gap-4 md:w-[400px] md:justify-between">
                 <span className="font-open_sans text-base font-[400] uppercase tracking-[1.96px] text-[#323232]">
-                  tuesday - Thursday{" "}
+                  Monday - Thursday{" "}
                 </span>
                 <span className="font-open_sans text-base font-[400] uppercase tracking-[1.96px] text-[#323232]">
-                  8 AM - 11 PM{" "}
+                  8:30 AM - 4:30 PM{" "}
                 </span>
               </div>
               <div className="h-full w-full border-b-[1px] border-b-[#D9D9D9]" />
@@ -155,7 +150,7 @@ const Footer = ({}) => {
                   Friday - Saturday{" "}
                 </span>
                 <span className="font-open_sans text-base font-[400] uppercase tracking-[1.96px] text-[#323232]">
-                  9 AM - 11 PM{" "}
+                  8:30 AM - 5:00 PM{" "}
                 </span>
               </div>
               <div className="h-full w-full border-b-[1px] border-b-[#D9D9D9]" />
@@ -165,7 +160,7 @@ const Footer = ({}) => {
                   Sunday{" "}
                 </span>
                 <span className="font-open_sans text-base font-[400] uppercase tracking-[1.96px] text-[#323232]">
-                  9 AM - 10 PM{" "}
+                  8:30 AM - 4:00 PM{" "}
                 </span>
               </div>
             </div>

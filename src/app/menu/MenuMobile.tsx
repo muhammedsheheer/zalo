@@ -240,7 +240,7 @@ export default function MenuMobile() {
               width={177}
               height={101}
               alt="logo"
-              className="w-12"
+              className="w-24"
             />
             <div
               onClick={() => setShowSearch((prev) => !prev)}
