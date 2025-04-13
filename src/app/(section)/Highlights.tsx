@@ -12,8 +12,8 @@ const Highlights: React.FC = () => {
             <span className="text-center font-playfair text-sm font-[400] capitalize tracking-[1.2px] text-[#000]">
               Specials
             </span>
-            <h1 className="font-times_new_roman text-center text-5xl font-[400] capitalize text-[#000] md:text-7xl">
-              ZOLA <br /> CAFE <br /> highlights
+            <h1 className="text-center font-times_new_roman text-5xl font-[400] capitalize text-[#000] md:text-7xl">
+              Zalo’s <br /> CAFE <br /> highlights
             </h1>
           </div>
         </div>
@@ -57,7 +57,7 @@ const Highlights: React.FC = () => {
               Specials
             </span>
             <h1 className="font-times_new_roman text-5xl font-[400] capitalize text-[#000] md:text-5xl">
-              ZOLA <br /> CAFE <br /> highlights
+              Zalo’s <br /> CAFE <br /> highlights
             </h1>
           </div>
         </div>

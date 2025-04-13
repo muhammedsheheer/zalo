@@ -37,7 +37,7 @@ const About = () => {
             </h1>
           </div>
           <p className="w-full max-w-[400px] font-inter text-sm font-[300] text-[#262626] md:text-base">
-            At Zola’s Cafe, we believe in more than just great coffee—we create
+            At Zalo’s Cafe, we believe in more than just great coffee—we create
             experiences. Nestled in the heart, our cafe is a haven for coffee
             lovers, food enthusiasts, and those looking for a warm, inviting
             space to relax or work.

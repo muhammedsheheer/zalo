@@ -19,10 +19,10 @@ function ReserveNew() {
       <div className="flex w-full flex-col justify-center gap-5 px-4 py-6 md:w-1/3 md:px-[60px]">
         <p className="font-playfair capitalize text-black">booking</p>
         <p className="font-times_new_roman text-6xl text-black">
-          Reserve Your Table <span className="italic">at Zola’s Cafe</span>
+          Reserve Your Table <span className="italic">at Zalo’s Cafe</span>
         </p>
         <p className="font-inter text-sm font-[300] text-black">
-          Experience the warmth of Zola’s Cafe, where great coffee meets a cozy
+          Experience the warmth of Zalo’s Cafe, where great coffee meets a cozy
           ambiance. Book your table now and enjoy a delightful dining experience
           filled with rich flavours, handcrafted beverages, and a welcoming
           atmosphere.
