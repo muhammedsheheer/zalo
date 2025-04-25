@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 
 const About = () => {
   return (
-    <section className="h-full w-full bg-[#F7F4ED] py-12 pl-0 pr-0 md:py-0 md:pl-0 md:pr-0">
+    <section className="h-full w-full bg-[#fff6eb] py-12 pl-0 pr-0 md:py-0 md:pl-0 md:pr-0">
       <div className="flex h-full w-full flex-col items-center justify-center gap-6 md:flex-row md:items-start md:justify-start md:gap-0">
         <motion.div
           className="hidden w-full bg-[#9B3733] md:block md:w-[16%]"
@@ -46,13 +46,13 @@ const About = () => {
           viewport={{ once: false }}
           transition={{ duration: 1.5, ease: "easeOut" }}
         >
-          <div className="absolute inset-0 z-0 flex items-center justify-center">
+          <div className="absolute inset-0 z-0 flex items-center justify-center md:pr-32">
             <Image
               src={"/images/home/about/bg.png"}
               width={281}
               height={74}
               alt="logo"
-              className="z-0 h-[300px] w-full object-cover md:h-[650px]"
+              className="z-0 h-[300px] w-full object-cover md:h-auto"
             />
           </div>
           <div className="z-50 flex flex-col gap-2">

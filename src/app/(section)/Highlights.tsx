@@ -6,10 +6,28 @@ import { motion } from "framer-motion";
 
 const Highlights: React.FC = () => {
   return (
-    <section className="h-full w-full bg-[#F7F4ED] px-0 py-8 md:px-0 md:py-16">
+    <section className="h-full w-full bg-[#fff6eb] px-0 py-8 md:px-0 md:py-16">
       <div className="hidden flex-col gap-6 md:flex md:flex-row">
-        <div className="w-full md:hidden md:w-[25%]">
-          <div className="flex flex-col items-center justify-center gap-2">
+        <div className="relative w-full md:hidden md:w-[25%]">
+          <div className="absolute inset-0 z-0 flex items-center justify-center">
+            <Image
+              src={"/images/home/about/bg.png"}
+              width={281}
+              height={74}
+              alt="logo"
+              className="z-0 h-[300px] w-full md:h-[650px]"
+            />
+          </div>
+          <div className="relative flex flex-col items-center justify-center gap-2">
+            <div className="absolute inset-0 z-0 flex items-center justify-center">
+              <Image
+                src={"/images/home/about/bg.png"}
+                width={281}
+                height={74}
+                alt="logo"
+                className="z-0 h-[300px] w-full md:h-[650px]"
+              />
+            </div>
             <span className="text-center font-playfair text-sm font-[400] capitalize tracking-[1.2px] text-[#000]">
               Specials
             </span>
@@ -77,7 +95,16 @@ const Highlights: React.FC = () => {
           viewport={{ once: false, amount: 0.5 }}
           transition={{ duration: 1.5, ease: "easeOut" }}
         >
-          <div className="flex flex-col items-start justify-start gap-2">
+          <div className="relative flex flex-col items-start justify-start gap-2">
+            <div className="absolute inset-0 z-0 flex items-center justify-center pr-20">
+              <Image
+                src={"/images/home/about/bg.png"}
+                width={281}
+                height={74}
+                alt="logo"
+                className="z-0 h-auto w-full object-cover"
+              />
+            </div>
             <span className="font-playfair text-sm font-[400] capitalize tracking-[1.2px] text-[#000]">
               Specials
             </span>

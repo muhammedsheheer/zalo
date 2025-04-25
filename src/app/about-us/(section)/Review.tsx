@@ -40,44 +40,46 @@ const Reviews = ({}) => {
           {reviews && (
             <Carousel className="ml-6 mr-0 w-full md:ml-0 md:mr-12">
               <CarouselContent className="flex w-full justify-center gap-4 md:ml-4">
-                {reviews.map((review, index) => (
-                  <CarouselItem
-                    key={index}
-                    className={`flex w-full basis-full flex-col items-center justify-center gap-6 rounded-xl border border-[#DEDEDE] bg-transparent py-6 md:basis-1/4 md:py-12`}
-                  >
-                    <div className="flex flex-col items-start justify-start gap-6 px-6 pb-4">
-                      <div className="flex flex-row items-center justify-center gap-1">
-                        <Image
-                          src={review.authorAttribution.photoUri}
-                          width={677}
-                          height={503}
-                          alt="image"
-                          className="h-10 w-10"
-                        />
-                        <div className="flex flex-col">
-                          <p className="text-[#fff]">
-                            {review.authorAttribution.displayName}
-                          </p>
-                          <p className="text-[#fff]">
-                            {review.relativePublishTimeDescription}
+                {reviews
+                  .filter((review) => review.rating >= 4)
+                  .map((review, index) => (
+                    <CarouselItem
+                      key={index}
+                      className={`flex w-full basis-full flex-col items-center justify-center gap-6 rounded-xl border border-[#DEDEDE] bg-transparent py-6 md:basis-1/4 md:py-12`}
+                    >
+                      <div className="flex flex-col items-start justify-start gap-6 px-6 pb-4">
+                        <div className="flex flex-row items-center justify-center gap-1">
+                          <Image
+                            src={review.authorAttribution.photoUri}
+                            width={677}
+                            height={503}
+                            alt="image"
+                            className="h-10 w-10"
+                          />
+                          <div className="flex flex-col">
+                            <p className="text-[#fff]">
+                              {review.authorAttribution.displayName}
+                            </p>
+                            <p className="text-[#fff]">
+                              {review.relativePublishTimeDescription}
+                            </p>
+                          </div>
+                        </div>
+                        <div className="flex w-full justify-start">
+                          {Array.from({ length: review.rating }).map(
+                            (_, index) => (
+                              <Icons.star key={index} className="text-[#fff]" />
+                            ),
+                          )}
+                        </div>
+                        <div className="flex flex-col gap-4">
+                          <p className="line-clamp-5 font-inter text-sm font-[400] text-[#fff] md:text-base">
+                            {review.text.text}
                           </p>
                         </div>
                       </div>
-                      <div className="flex w-full justify-start">
-                        {Array.from({ length: review.rating }).map(
-                          (_, index) => (
-                            <Icons.star key={index} className="text-[#fff]" />
-                          ),
-                        )}
-                      </div>
-                      <div className="flex flex-col gap-4">
-                        <p className="line-clamp-5 font-inter text-sm font-[400] text-[#fff] md:text-base">
-                          {review.text.text}
-                        </p>
-                      </div>
-                    </div>
-                  </CarouselItem>
-                ))}
+                    </CarouselItem>
+                  ))}
               </CarouselContent>
               <div className="group absolute -bottom-12 left-1/2 flex w-fit -translate-x-1/2 transform items-center gap-2 pb-8 transition-transform duration-300 ease-in-out">
                 <CarouselPrevious className="border-[#000] text-[#000] transition-transform duration-300 ease-in-out group-hover:-translate-x-2" />

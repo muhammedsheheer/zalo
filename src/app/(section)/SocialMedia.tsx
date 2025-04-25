@@ -6,7 +6,7 @@ import Link from "next/link";
 
 function SocialMedia() {
   return (
-    <section className="h-full w-full px-2 pt-20 md:px-[60px]">
+    <section className="h-full w-full bg-[#fff6eb] px-2 pt-20 md:px-[60px]">
       <div className="hidden h-fit w-full flex-col gap-7 md:flex">
         <p className="w-full text-center font-times_new_roman text-4xl text-black md:text-6xl">
           Slide Into Our socials

@@ -19,23 +19,34 @@ function ReserveNew() {
           />
         </div>
         <motion.div
-          className="flex w-full flex-col justify-center gap-5 px-4 py-6 md:w-1/3 md:px-[60px]"
+          className="relative z-50 flex w-full flex-col justify-center gap-5 px-4 py-6 md:w-1/3 md:px-[60px]"
           initial={{ opacity: 0, y: 50, scale: 0.8 }}
           whileInView={{ opacity: 1, y: 0, scale: 1 }}
           viewport={{ once: false, amount: 0.5 }}
           transition={{ duration: 1.5, ease: "easeOut" }}
         >
-          <p className="font-playfair capitalize text-[#58100E]">booking</p>
-          <p className="font-times_new_roman text-6xl text-[#58100E]">
+          <div className="absolute inset-0 z-0 flex items-center justify-center pr-20">
+            <Image
+              src={"/images/home/about/bg.png"}
+              width={281}
+              height={74}
+              alt="logo"
+              className="z-0 h-auto w-full object-cover"
+            />
+          </div>
+          <p className="z-50 font-playfair capitalize text-[#58100E]">
+            booking
+          </p>
+          <p className="z-50 font-times_new_roman text-6xl text-[#58100E]">
             Reserve Your Table <span className="italic">at Zalo’s Cafe</span>
           </p>
-          <p className="font-inter text-sm font-[300] text-[#58100E]">
+          <p className="z-50 font-inter text-sm font-[300] text-[#58100E]">
             Experience the warmth of Zalo’s Cafe, where great coffee meets a
             cozy ambiance. Book your table now and enjoy a delightful dining
             experience filled with rich flavours, handcrafted beverages, and a
             welcoming atmosphere.
           </p>
-          <Button className="flex w-fit items-center justify-center gap-1 rounded-full bg-[#58100E] px-6 py-7 text-[#fff] hover:bg-[#8a4846]">
+          <Button className="z-50 flex w-fit items-center justify-center gap-1 rounded-full bg-[#58100E] px-6 py-7 text-[#fff] hover:bg-[#8a4846]">
             <Link href={"/table-booking"}>
               <span className="font-playfair text-lg">Book Now</span>
             </Link>
@@ -62,26 +73,35 @@ function ReserveNew() {
       {/* mobile screen */}
       <div className="flex flex-col gap-6 md:hidden">
         <motion.div
-          className="flex w-full flex-col justify-center gap-5 px-4 py-6 md:w-1/3 md:px-[60px]"
+          className="relative z-50 flex w-full flex-col justify-center gap-5 px-4 py-6 md:w-1/3 md:px-[60px]"
           initial={{ opacity: 0, y: 50, scale: 0.8 }}
           whileInView={{ opacity: 1, y: 0, scale: 1 }}
           viewport={{ once: false, amount: 0.5 }}
           transition={{ duration: 1.5, ease: "easeOut" }}
         >
-          <p className="text-center font-playfair capitalize text-[#58100E]">
+          <div className="absolute inset-0 z-0 flex items-center justify-center">
+            <Image
+              src={"/images/home/about/bg.png"}
+              width={281}
+              height={74}
+              alt="logo"
+              className="z-0 h-auto w-full object-cover"
+            />
+          </div>
+          <p className="z-50 text-center font-playfair capitalize text-[#58100E]">
             booking
           </p>
-          <p className="text-center font-times_new_roman text-4xl text-[#58100E]">
+          <p className="z-50 text-center font-times_new_roman text-4xl text-[#58100E]">
             Reserve Your Table <span className="italic">at Zalo’s Cafe</span>
           </p>
-          <p className="text-center font-inter text-sm font-[300] text-[#58100E]">
+          <p className="z-50 text-center font-inter text-sm font-[300] text-[#58100E]">
             Experience the warmth of Zalo’s Cafe, where great coffee meets a
             cozy ambiance. Book your table now and enjoy a delightful dining
             experience filled with rich flavours, handcrafted beverages, and a
             welcoming atmosphere.
           </p>
-          <div className="flex items-center justify-center">
-            <Button className="flex items-center justify-center gap-1 rounded-full bg-[#58100E] px-6 py-7 text-[#fff] hover:bg-[#8a4846]">
+          <div className="z-50 flex items-center justify-center">
+            <Button className="z-50 flex items-center justify-center gap-1 rounded-full bg-[#58100E] px-6 py-7 text-[#fff] hover:bg-[#8a4846]">
               <Link href={"/table-booking"}>
                 <span className="font-playfair text-lg">Book Now</span>
               </Link>
