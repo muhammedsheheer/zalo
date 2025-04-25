@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 
 const About = () => {
   return (
-    <section className="h-full w-full bg-[#F7F4ED] py-12 pl-4 pr-4 md:py-0 md:pl-0 md:pr-0">
+    <section className="h-full w-full bg-[#F7F4ED] py-12 pl-0 pr-0 md:py-0 md:pl-0 md:pr-0">
       <div className="flex h-full w-full flex-col items-center justify-center gap-6 md:flex-row md:items-start md:justify-start md:gap-0">
         <motion.div
           className="hidden w-full bg-[#9B3733] md:block md:w-[16%]"
@@ -56,21 +56,21 @@ const About = () => {
             />
           </div>
           <div className="z-50 flex flex-col gap-2">
-            <span className="font-playfair text-sm font-[400] capitalize tracking-[1.2px] text-[#040404]">
+            <span className="text-center font-playfair text-sm font-[400] capitalize tracking-[1.2px] text-[#040404] md:text-start">
               About us
             </span>
-            <h1 className="font-times_new_roman text-4xl font-[400] capitalize text-[#040404] md:text-5xl">
+            <h1 className="text-center font-times_new_roman text-4xl font-[400] capitalize text-[#040404] md:text-start md:text-5xl">
               Welcome <br />
               to Zalo’s Cafe
             </h1>
           </div>
-          <p className="z-50 w-full max-w-[400px] font-inter text-sm font-[300] text-[#262626] md:text-base">
+          <p className="z-50 w-full max-w-[400px] px-4 text-center font-inter text-sm font-[300] text-[#262626] md:px-0 md:text-start md:text-base">
             At Zalo’s Cafe, we believe in more than just great coffee—we create
             experiences. Nestled in the heart, our cafe is a haven for coffee
             lovers, food enthusiasts, and those looking for a warm, inviting
             space to relax or work.
           </p>
-          <div className="z-50">
+          <div className="z-50 flex items-center justify-center md:items-start md:justify-start">
             <Link href={"/menu"}>
               <Button
                 className={

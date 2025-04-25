@@ -87,7 +87,7 @@ const Footer = ({}) => {
                 </Link>
               </div>
             </div>
-            <div className="flex flex-col items-center justify-center gap-4 md:mt-24 md:items-start md:gap-6">
+            <div className="hidden flex-col items-center justify-center gap-4 md:mt-24 md:flex md:items-start md:gap-6">
               <Link
                 href={"/"}
                 className="font-open_sans text-base font-[400] uppercase tracking-[2.4px] text-[#323232]"
