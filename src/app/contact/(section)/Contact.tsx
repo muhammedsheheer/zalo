@@ -75,7 +75,7 @@ const Contact = ({}) => {
         <div className="flex w-full flex-col lg:flex-row">
           <div className="flex w-full flex-col gap-8 bg-[#F7F4ED] px-6 lg:w-1/2 lg:px-28">
             <div className="flex flex-col gap-8">
-              <h1 className="font-forum text-4xl font-medium uppercase leading-[50px] tracking-[5px] text-[#000] lg:text-5xl">
+              <h1 className="font-forum text-4xl font-medium uppercase leading-[50px] tracking-[5px] lg:text-5xl">
                 Get in
                 <br /> Touch
               </h1>
@@ -84,41 +84,31 @@ const Contact = ({}) => {
               <div className="flex gap-6">
                 <div>
                   <div className="h-fit w-fit rounded-full p-2">
-                    <MapPin className="text-[#000]" />
+                    <MapPin />
                   </div>
                 </div>
                 <div className="flex flex-col gap-4">
-                  <Link href={"https://g.co/kgs/rQAnich"} target="_blank">
-                    <p className="text-[#000]">
+                  <Link href="https://g.co/kgs/rQAnich" target="_blank">
+                    <p className="">
                       31 The Cross, Lymm WA13 <br /> 0HR, United Kingdom
                     </p>
                   </Link>
-                  <Link href={"https://g.co/kgs/rQAnich"} target="_blank">
-                    <p className="flex items-center gap-2 text-sm text-[#000]">
+                  <Link href="https://g.co/kgs/rQAnich" target="_blank">
+                    <p className="flex items-center gap-2 text-sm">
                       <span>Get Direction</span>
-                      <ArrowRight className="text-[#000]" />
+                      <ArrowRight />
                     </p>
                   </Link>
                 </div>
               </div>
-              {/* <div className="flex items-center gap-6">
+              <div className="flex items-center gap-6">
                 <div>
                   <div className="h-fit w-fit rounded-full p-2">
                     <Phone />
                   </div>
                 </div>
                 <div className="flex flex-col gap-4">
-                  <Link href="tel:+441234567890" className="">+44 1234 567890</Link>
-                </div>
-              </div> */}
-              <div className="flex items-center gap-6">
-                <div>
-                  <div className="h-fit w-fit rounded-full p-2">
-                    <Phone className="text-[#000]" />
-                  </div>
-                </div>
-                <div className="flex flex-col gap-4">
-                  <Link href="tel:+441925982168" className="text-[#000]">
+                  <Link href="tel:+441925982168" className="">
                     +44 1925 982168
                   </Link>
                 </div>
@@ -126,41 +116,31 @@ const Contact = ({}) => {
               <div className="flex items-center gap-6">
                 <div>
                   <div className="h-fit w-fit rounded-full p-2">
-                    <Mail className="text-[#000]" />
+                    <Mail />
                   </div>
                 </div>
                 <div className="flex flex-col gap-4">
-                  <Link
-                    className="font-open_sans text-base font-[400] uppercase tracking-[1px] text-[#323232]"
-                    href={"mailto:info@zaloscafe.co.uk"}
-                  >
+                  <Link href="mailto:info@zaloscafe.co.uk" className="">
                     info@zaloscafe.co.uk
                   </Link>
                 </div>
               </div>
               <div className="flex items-center justify-start gap-4">
                 <Link
-                  href={
-                    "https://www.instagram.com/zaloscafelymm?igsh=MWpmbGlkYWM2NmQ5MQ%3D%3D"
-                  }
+                  href="https://www.instagram.com/zaloscafelymm?igsh=MWpmbGlkYWM2NmQ5MQ%3D%3D"
                   target="_blank"
                 >
-                  <Icons.instagram className="text-[#000]" />
+                  <Icons.instagram />
                 </Link>
-                <Link
-                  href={
-                    "https://www.facebook.com/p/Zalos-Cafe-Lymm-61566589567442/"
-                  }
-                  target="_blank"
-                >
-                  <Icons.facebook className="text-[#000]" />
-                </Link>
-                <Link href={"https://g.co/kgs/rQAnich"} target="_blank">
-                  <Icons.google className="text-[#000]" />
-                </Link>
-                {/* <Link href='https://www.facebook.com/Istanbulwoolton/'>
-                  <Icons.facebook />
+                {/* <Link href='https://www.tripadvisor.com/Restaurant_Review-g187069-d28003565-Reviews-Nur_Cafe-Manchester_Greater_Manchester_England.html' target="_blank">
+                  <Icons.unknown />
                 </Link> */}
+                <Link href="https://g.co/kgs/rQAnich" target="_blank">
+                  <Icons.google />
+                </Link>
+                <Link href="https://www.facebook.com/p/Zalos-Cafe-Lymm-61566589567442/">
+                  <Icons.facebook />
+                </Link>
               </div>
             </div>
           </div>
@@ -179,7 +159,7 @@ const Contact = ({}) => {
                               <Input
                                 placeholder="First Name"
                                 {...field}
-                                className="h-12 rounded-xl bg-[#D9D9D9] text-[#000] placeholder:text-[#000]"
+                                className="h-12 rounded-xl bg-white"
                               />
                             </FormControl>
                             <FormMessage />
@@ -195,7 +175,7 @@ const Contact = ({}) => {
                               <Input
                                 placeholder="Phone"
                                 {...field}
-                                className="h-12 rounded-xl bg-[#D9D9D9] text-[#000] placeholder:text-[#000]"
+                                className="h-12 rounded-xl bg-white"
                               />
                             </FormControl>
                             <FormMessage />
@@ -211,7 +191,7 @@ const Contact = ({}) => {
                               <Input
                                 placeholder="Email"
                                 {...field}
-                                className="h-12 rounded-xl bg-[#D9D9D9] text-[#000] placeholder:text-[#000]"
+                                className="h-12 rounded-xl bg-white"
                               />
                             </FormControl>
                             <FormMessage />
@@ -223,14 +203,14 @@ const Contact = ({}) => {
                         name="message"
                         render={({ field }) => (
                           <FormItem className="w-full">
-                            <FormLabel className="text-[#000]">
+                            <FormLabel>
                               Reason for contacting (optional)
                             </FormLabel>
                             <FormControl>
                               <Textarea
                                 placeholder="Your Message"
                                 {...field}
-                                className="h-32 rounded-xl bg-[#D9D9D9] text-[#000] placeholder:text-[#000]"
+                                className="h-32 rounded-xl bg-white"
                               />
                             </FormControl>
                             <FormMessage />
@@ -241,7 +221,7 @@ const Contact = ({}) => {
                   </div>
                   <div className="flex w-full flex-col pt-7 lg:flex-row">
                     <Button
-                      className="font-bai w-full rounded-2xl bg-[#714C23] py-6 text-white hover:bg-[#976935]"
+                      className="font-bai w-full rounded-2xl bg-[#5E1817] py-6 hover:bg-secondary"
                       disabled={bookTableMutation.isPending}
                     >
                       Contact US
@@ -275,3 +255,5 @@ const Contact = ({}) => {
 };
 
 export default Contact;
+
+// /images/contact/contact.png

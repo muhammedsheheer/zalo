@@ -13,14 +13,25 @@ import Image from "next/image";
 const Reviews = ({}) => {
   const { reviews } = useRestaurant();
   return (
-    <section className="relative flex h-full w-full justify-center bg-[#F7F4ED] pb-28 pt-10 md:pb-32 md:pt-16">
+    <section className="relative flex h-full w-full justify-center bg-[#58100E] pb-28 pt-10 md:pb-32 md:pt-16">
+      <div className="lines">
+        <div className="line"></div>
+        <div className="line"></div>
+        <div className="line"></div>
+      </div>
+      <div className="absolute -right-20 bottom-0 top-0">
+        <Image
+          src={"/images/home/about/bg1.png"}
+          width={281}
+          height={74}
+          alt="logo"
+          className="z-0 h-[300px] w-full object-cover md:h-[650px]"
+        />
+      </div>
       <div className="flex h-full w-full flex-col items-center justify-center gap-4 rounded-t-full">
         <div className="flex h-full w-full flex-col items-center justify-center gap-2 pb-4 md:pb-16 lg:gap-4">
           <div className="flex flex-col items-center justify-center gap-2">
-            <span className="text-center font-playfair text-sm font-[400] capitalize tracking-[1.2px] text-[#040404]">
-              Reviews{" "}
-            </span>
-            <h1 className="text-center font-italiana text-5xl font-[400] capitalize text-[#040404] md:text-7xl">
+            <h1 className="text-center font-times_new_roman text-5xl font-[400] capitalize text-[#fff] md:text-7xl">
               Hear Our Guests{" "}
             </h1>
           </div>
@@ -44,22 +55,23 @@ const Reviews = ({}) => {
                           className="h-10 w-10"
                         />
                         <div className="flex flex-col">
-                          <p>{review.authorAttribution.displayName}</p>
-                          <p>{review.relativePublishTimeDescription}</p>
+                          <p className="text-[#fff]">
+                            {review.authorAttribution.displayName}
+                          </p>
+                          <p className="text-[#fff]">
+                            {review.relativePublishTimeDescription}
+                          </p>
                         </div>
                       </div>
                       <div className="flex w-full justify-start">
                         {Array.from({ length: review.rating }).map(
                           (_, index) => (
-                            <Icons.star
-                              key={index}
-                              className="text-[#040404]"
-                            />
+                            <Icons.star key={index} className="text-[#fff]" />
                           ),
                         )}
                       </div>
                       <div className="flex flex-col gap-4">
-                        <p className="line-clamp-5 font-inter text-sm font-[400] text-[#040404] md:text-base">
+                        <p className="line-clamp-5 font-inter text-sm font-[400] text-[#fff] md:text-base">
                           {review.text.text}
                         </p>
                       </div>

@@ -7,6 +7,7 @@ import Sidebar from "./SideBar";
 import { usePathname } from "next/navigation";
 import { cn } from "@/lib/utils";
 import { ArrowRight } from "lucide-react";
+import clsx from "clsx";
 
 const Navbar = ({
   position = "static",
@@ -157,11 +158,19 @@ const Navbar = ({
 export default Navbar;
 
 const EqualizerIcon: React.FC = () => {
+  const pathname = usePathname();
+
   return (
-    <div className="equalizer-icon rotate text-[#000]">
-      <div className="bar"></div>
-      <div className="bar"></div>
-      <div className="bar"></div>
+    <div className="equalizer-icon rotate">
+      <div
+        className={clsx("bar", pathname === "/" ? "bg-[#fff]" : "bg-[#5E1817]")}
+      ></div>
+      <div
+        className={clsx("bar", pathname === "/" ? "bg-[#fff]" : "bg-[#5E1817]")}
+      ></div>
+      <div
+        className={clsx("bar", pathname === "/" ? "bg-[#fff]" : "bg-[#5E1817]")}
+      ></div>
     </div>
   );
 };

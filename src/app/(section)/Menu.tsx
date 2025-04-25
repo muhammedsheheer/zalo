@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import { motion } from "framer-motion";
 
 const data = [
   {
@@ -37,13 +38,19 @@ const Menu: React.FC = () => {
           <span className="text-center font-playfair text-sm font-[400] capitalize tracking-[1.2px] text-[#040404]">
             Menu
           </span>
-          <h1 className="font-times_new_roman text-center text-5xl font-[400] capitalize text-[#040404] md:text-7xl">
+          <h1 className="text-center font-times_new_roman text-5xl font-[400] capitalize text-[#040404] md:text-7xl">
             Explore our menu
           </h1>
         </div>
         <div className="flex h-full w-full flex-col gap-8 md:flex-row">
           <div className="flex w-full flex-col items-center justify-center gap-6 md:w-[20%]">
-            <div className="h-full w-full">
+            <motion.div
+              className="h-full w-full"
+              initial={{ opacity: 0, y: 50, scale: 0.8 }}
+              whileInView={{ opacity: 1, y: 0, scale: 1 }}
+              viewport={{ once: false, amount: 0.5 }}
+              transition={{ duration: 1.5, ease: "easeOut" }}
+            >
               <Image
                 src={"/images/home/menu/image1.png"}
                 width={677}
@@ -51,13 +58,19 @@ const Menu: React.FC = () => {
                 alt="image"
                 className="h-[300px] w-full object-cover md:h-[500px]"
               />
-            </div>
-            <h6 className="font-times_new_roman text-center text-2xl font-[400] capitalize text-[#000] md:text-3xl md:tracking-[1.52px]">
+            </motion.div>
+            <h6 className="text-center font-times_new_roman text-2xl font-[400] capitalize text-[#000] md:text-3xl md:tracking-[1.52px]">
               Shawarma Manouche
             </h6>
           </div>
           <div className="flex w-full flex-col items-center justify-center gap-6 md:w-[30%]">
-            <div className="h-full w-full">
+            <motion.div
+              className="h-full w-full"
+              initial={{ opacity: 0, y: 50, scale: 0.8 }}
+              whileInView={{ opacity: 1, y: 0, scale: 1 }}
+              viewport={{ once: false, amount: 0.5 }}
+              transition={{ duration: 1.5, ease: "easeOut" }}
+            >
               <Image
                 src={"/images/home/menu/image2.png"}
                 width={677}
@@ -65,13 +78,19 @@ const Menu: React.FC = () => {
                 alt="image"
                 className="h-[300px] w-full object-cover md:h-[500px]"
               />
-            </div>
-            <h6 className="font-times_new_roman text-center text-2xl font-[400] capitalize text-[#000] md:text-3xl md:tracking-[1.52px]">
+            </motion.div>
+            <h6 className="text-center font-times_new_roman text-2xl font-[400] capitalize text-[#000] md:text-3xl md:tracking-[1.52px]">
               breakfast
             </h6>
           </div>
           <div className="flex w-full flex-col items-center justify-center gap-6 md:w-[20%]">
-            <div className="h-full w-full">
+            <motion.div
+              className="h-full w-full"
+              initial={{ opacity: 0, y: 50, scale: 0.8 }}
+              whileInView={{ opacity: 1, y: 0, scale: 1 }}
+              viewport={{ once: false, amount: 0.5 }}
+              transition={{ duration: 1.5, ease: "easeOut" }}
+            >
               <Image
                 src={"/images/home/menu/image3.png"}
                 width={677}
@@ -79,13 +98,19 @@ const Menu: React.FC = () => {
                 alt="image"
                 className="h-[300px] w-full object-cover md:h-[500px]"
               />
-            </div>
-            <h6 className="font-times_new_roman text-center text-2xl font-[400] capitalize text-[#000] md:text-3xl md:tracking-[1.52px]">
+            </motion.div>
+            <h6 className="text-center font-times_new_roman text-2xl font-[400] capitalize text-[#000] md:text-3xl md:tracking-[1.52px]">
               wraps
             </h6>
           </div>
           <div className="flex w-full flex-col items-center justify-center gap-6 md:w-[30%]">
-            <div className="h-full w-full">
+            <motion.div
+              className="h-full w-full"
+              initial={{ opacity: 0, y: 50, scale: 0.8 }}
+              whileInView={{ opacity: 1, y: 0, scale: 1 }}
+              viewport={{ once: false, amount: 0.5 }}
+              transition={{ duration: 1.5, ease: "easeOut" }}
+            >
               <Image
                 src={"/images/home/menu/image4.png"}
                 width={677}
@@ -93,8 +118,8 @@ const Menu: React.FC = () => {
                 alt="image"
                 className="h-[300px] w-full object-cover md:h-[500px]"
               />
-            </div>
-            <h6 className="font-times_new_roman text-center text-2xl font-[400] capitalize text-[#000] md:text-3xl md:tracking-[1.52px]">
+            </motion.div>
+            <h6 className="text-center font-times_new_roman text-2xl font-[400] capitalize text-[#000] md:text-3xl md:tracking-[1.52px]">
               desserts
             </h6>
           </div>

@@ -3,6 +3,7 @@ import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import Link from "next/link";
+import { motion } from "framer-motion";
 
 function ReserveNew() {
   return (
@@ -16,24 +17,30 @@ function ReserveNew() {
           className="max-h-[700px] object-cover"
         />
       </div>
-      <div className="flex w-full flex-col justify-center gap-5 px-4 py-6 md:w-1/3 md:px-[60px]">
-        <p className="font-playfair capitalize text-black">booking</p>
-        <p className="font-times_new_roman text-6xl text-black">
+      <motion.div
+        className="flex w-full flex-col justify-center gap-5 px-4 py-6 md:w-1/3 md:px-[60px]"
+        initial={{ opacity: 0, y: 50, scale: 0.8 }}
+        whileInView={{ opacity: 1, y: 0, scale: 1 }}
+        viewport={{ once: false, amount: 0.5 }}
+        transition={{ duration: 1.5, ease: "easeOut" }}
+      >
+        <p className="font-playfair capitalize text-[#58100E]">booking</p>
+        <p className="font-times_new_roman text-6xl text-[#58100E]">
           Reserve Your Table <span className="italic">at Zalo’s Cafe</span>
         </p>
-        <p className="font-inter text-sm font-[300] text-black">
+        <p className="font-inter text-sm font-[300] text-[#58100E]">
           Experience the warmth of Zalo’s Cafe, where great coffee meets a cozy
           ambiance. Book your table now and enjoy a delightful dining experience
           filled with rich flavours, handcrafted beverages, and a welcoming
           atmosphere.
         </p>
-        <Button className="flex w-fit items-center justify-center gap-1 rounded-full bg-[#714c23] px-6 py-7">
+        <Button className="flex w-fit items-center justify-center gap-1 rounded-full bg-[#58100E] px-6 py-7 text-[#fff] hover:bg-[#8a4846]">
           <Link href={"/table-booking"}>
             <span className="font-playfair text-lg">Book Now</span>
           </Link>
-          <ArrowRight className="mt-1 h-5 w-5" />
+          <ArrowRight className="mt-1 h-5 w-5 text-[#fff]" />
         </Button>
-      </div>
+      </motion.div>
       <div className="flex w-full gap-4 md:w-1/3">
         <Image
           src="/images/home/reserve/2.png"

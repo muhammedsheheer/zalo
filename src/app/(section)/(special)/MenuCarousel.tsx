@@ -358,6 +358,12 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
           //   borderRadius: "187.5rem 187.5rem 0rem 0rem",
           //   background: "linear-gradient(180deg, #161616 0%, #070707 100%)",
           // }}
+
+          style={{
+            backgroundImage: "url('/images/home/hero/bg1.png')",
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+          }}
         />
         <div className="absolute left-1/2 top-0 translate-x-16 transform sm:translate-x-24 md:translate-x-28">
           {/* <div className="relative flex size-24 items-center justify-center">

@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import { motion } from "framer-motion";
 
 const Highlights: React.FC = () => {
   return (
@@ -17,7 +18,13 @@ const Highlights: React.FC = () => {
             </h1>
           </div>
         </div>
-        <div className="w-full md:w-[28%]">
+        <motion.div
+          className="w-full md:w-[28%]"
+          initial={{ opacity: 0, y: 50, scale: 0.8 }}
+          whileInView={{ opacity: 1, y: 0, scale: 1 }}
+          viewport={{ once: false, amount: 0.5 }}
+          transition={{ duration: 1.5, ease: "easeOut" }}
+        >
           <Image
             src={"/images/home/highlights/image1.png"}
             width={677}
@@ -25,8 +32,14 @@ const Highlights: React.FC = () => {
             alt="image"
             className="h-[300px] w-full object-cover md:h-[600px]"
           />
-        </div>
-        <div className="flex w-full flex-col gap-6 md:w-[19%]">
+        </motion.div>
+        <motion.div
+          className="flex w-full flex-col gap-6 md:w-[19%]"
+          initial={{ opacity: 0, y: 50, scale: 0.8 }}
+          whileInView={{ opacity: 1, y: 0, scale: 1 }}
+          viewport={{ once: false, amount: 0.5 }}
+          transition={{ duration: 1.5, ease: "easeOut" }}
+        >
           <Image
             src={"/images/home/highlights/image2.png"}
             width={677}
@@ -41,8 +54,14 @@ const Highlights: React.FC = () => {
             alt="image"
             className="h-[300px] w-full object-cover md:h-[290px]"
           />
-        </div>
-        <div className="w-full md:w-[28%]">
+        </motion.div>
+        <motion.div
+          className="w-full md:w-[28%]"
+          initial={{ opacity: 0, y: 50, scale: 0.8 }}
+          whileInView={{ opacity: 1, y: 0, scale: 1 }}
+          viewport={{ once: false, amount: 0.5 }}
+          transition={{ duration: 1.5, ease: "easeOut" }}
+        >
           <Image
             src={"/images/home/highlights/image4.png"}
             width={677}
@@ -50,8 +69,14 @@ const Highlights: React.FC = () => {
             alt="image"
             className="h-[300px] w-full object-cover md:h-[600px]"
           />
-        </div>
-        <div className="ml-8 mt-[12%] hidden w-full md:block md:w-[25%]">
+        </motion.div>
+        <motion.div
+          className="ml-8 mt-[12%] hidden w-full md:block md:w-[25%]"
+          initial={{ opacity: 0, x: 50, scale: 0.8 }}
+          whileInView={{ opacity: 1, x: 0, scale: 1 }}
+          viewport={{ once: false, amount: 0.5 }}
+          transition={{ duration: 1.5, ease: "easeOut" }}
+        >
           <div className="flex flex-col items-start justify-start gap-2">
             <span className="font-playfair text-sm font-[400] capitalize tracking-[1.2px] text-[#000]">
               Specials
@@ -60,7 +85,7 @@ const Highlights: React.FC = () => {
               Zalo’s <br /> CAFE <br /> highlights
             </h1>
           </div>
-        </div>
+        </motion.div>
       </div>
     </section>
   );

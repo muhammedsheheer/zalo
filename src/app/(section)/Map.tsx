@@ -9,7 +9,7 @@ function Map() {
         allowFullScreen
         loading="lazy"
         referrerPolicy="no-referrer-when-downgrade"
-        className="h-[500px] w-full"
+        className="h-[500px] w-full grayscale invert"
       ></iframe>
     </section>
   );
