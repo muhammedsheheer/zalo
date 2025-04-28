@@ -28,7 +28,7 @@ const Hero: React.FC = () => {
           width={281}
           height={74}
           alt="logo"
-          className="h-full w-full md:w-[800px]"
+          className="h-full w-full md:w-[801px]"
         />
 
         <div className="">
