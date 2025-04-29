@@ -43,13 +43,15 @@ const Highlights: React.FC = () => {
           viewport={{ once: false, amount: 0.5 }}
           transition={{ duration: 1.5, ease: "easeOut" }}
         >
-          <Image
-            src={"/images/home/highlights/image1.png"}
-            width={677}
-            height={503}
-            alt="image"
-            className="h-[300px] w-full object-cover md:h-[600px]"
-          />
+          <Link href={"/menu"}>
+            <Image
+              src={"/images/home/highlights/image1.png"}
+              width={677}
+              height={503}
+              alt="image"
+              className="h-[300px] w-full object-cover md:h-[600px]"
+            />
+          </Link>
         </motion.div>
         <motion.div
           className="flex w-full flex-col gap-6 md:w-[19%]"
@@ -58,20 +60,26 @@ const Highlights: React.FC = () => {
           viewport={{ once: false, amount: 0.5 }}
           transition={{ duration: 1.5, ease: "easeOut" }}
         >
-          <Image
-            src={"/images/home/highlights/image2.png"}
-            width={677}
-            height={503}
-            alt="image"
-            className="h-[300px] w-full object-cover md:h-[290px]"
-          />
-          <Image
-            src={"/images/home/highlights/image3.png"}
-            width={677}
-            height={503}
-            alt="image"
-            className="h-[300px] w-full object-cover md:h-[290px]"
-          />
+          <Link href={"/menu"}>
+            {" "}
+            <Image
+              src={"/images/home/highlights/image2.png"}
+              width={677}
+              height={503}
+              alt="image"
+              className="h-[300px] w-full object-cover md:h-[290px]"
+            />
+          </Link>
+
+          <Link href={"/menu"}>
+            <Image
+              src={"/images/home/highlights/image3.png"}
+              width={677}
+              height={503}
+              alt="image"
+              className="h-[300px] w-full object-cover md:h-[290px]"
+            />
+          </Link>
         </motion.div>
         <motion.div
           className="w-full md:w-[28%]"
@@ -80,13 +88,15 @@ const Highlights: React.FC = () => {
           viewport={{ once: false, amount: 0.5 }}
           transition={{ duration: 1.5, ease: "easeOut" }}
         >
-          <Image
-            src={"/images/home/highlights/image4.png"}
-            width={677}
-            height={503}
-            alt="image"
-            className="h-[300px] w-full object-cover md:h-[600px]"
-          />
+          <Link href={"/menu"}>
+            <Image
+              src={"/images/home/highlights/image4.png"}
+              width={677}
+              height={503}
+              alt="image"
+              className="h-[300px] w-full object-cover md:h-[600px]"
+            />
+          </Link>
         </motion.div>
         <motion.div
           className="ml-8 mt-[12%] hidden w-full md:block md:w-[25%]"
@@ -123,13 +133,15 @@ const Highlights: React.FC = () => {
           viewport={{ once: false, amount: 0.5 }}
           transition={{ duration: 1.5, ease: "easeOut" }}
         >
-          <Image
-            src={"/images/home/highlights/image1.png"}
-            width={677}
-            height={503}
-            alt="image"
-            className="h-[400px] w-full object-cover md:h-[600px]"
-          />
+          <Link href={"/menu"}>
+            <Image
+              src={"/images/home/highlights/image1.png"}
+              width={677}
+              height={503}
+              alt="image"
+              className="h-[400px] w-full object-cover md:h-[600px]"
+            />
+          </Link>
         </motion.div>
         <motion.div
           className="flex w-full flex-col gap-2 md:w-[19%]"
@@ -138,20 +150,26 @@ const Highlights: React.FC = () => {
           viewport={{ once: false, amount: 0.5 }}
           transition={{ duration: 1.5, ease: "easeOut" }}
         >
-          <Image
-            src={"/images/home/highlights/image2.png"}
-            width={677}
-            height={503}
-            alt="image"
-            className="h-[195px] w-full object-cover md:h-[290px]"
-          />
-          <Image
-            src={"/images/home/highlights/image3.png"}
-            width={677}
-            height={503}
-            alt="image"
-            className="h-[195px] w-full object-cover md:h-[290px]"
-          />
+          <Link href={"/menu"}>
+            {" "}
+            <Image
+              src={"/images/home/highlights/image2.png"}
+              width={677}
+              height={503}
+              alt="image"
+              className="h-[195px] w-full object-cover md:h-[290px]"
+            />
+          </Link>
+
+          <Link href={"/menu"}>
+            <Image
+              src={"/images/home/highlights/image3.png"}
+              width={677}
+              height={503}
+              alt="image"
+              className="h-[195px] w-full object-cover md:h-[290px]"
+            />
+          </Link>
         </motion.div>
         <motion.div
           className="w-full md:w-[28%]"
@@ -160,13 +178,15 @@ const Highlights: React.FC = () => {
           viewport={{ once: false, amount: 0.5 }}
           transition={{ duration: 1.5, ease: "easeOut" }}
         >
-          <Image
-            src={"/images/home/highlights/image4.png"}
-            width={677}
-            height={503}
-            alt="image"
-            className="h-[400px] w-full object-cover md:h-[600px]"
-          />
+          <Link href={"/menu"}>
+            <Image
+              src={"/images/home/highlights/image4.png"}
+              width={677}
+              height={503}
+              alt="image"
+              className="h-[400px] w-full object-cover md:h-[600px]"
+            />
+          </Link>
         </motion.div>
       </div>
     </section>

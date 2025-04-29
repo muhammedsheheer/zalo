@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 const data = [
   {
@@ -52,13 +53,15 @@ const Menu: React.FC = () => {
               viewport={{ once: false, amount: 0.5 }}
               transition={{ duration: 1.5, ease: "easeOut" }}
             >
-              <Image
-                src={"/images/home/menu/image1.png"}
-                width={677}
-                height={503}
-                alt="image"
-                className="h-[300px] w-full object-cover md:h-[500px]"
-              />
+              <Link href={"/menu"}>
+                <Image
+                  src={"/images/home/menu/image1.png"}
+                  width={677}
+                  height={503}
+                  alt="image"
+                  className="h-[300px] w-full object-cover md:h-[500px]"
+                />
+              </Link>
             </motion.div>
             <h6 className="text-center font-times_new_roman text-2xl font-[400] capitalize text-[#000] md:text-3xl md:tracking-[1.52px]">
               Shawarma Manouche
@@ -72,13 +75,15 @@ const Menu: React.FC = () => {
               viewport={{ once: false, amount: 0.5 }}
               transition={{ duration: 1.5, ease: "easeOut" }}
             >
-              <Image
-                src={"/images/home/menu/image2.png"}
-                width={677}
-                height={503}
-                alt="image"
-                className="h-[300px] w-full object-cover md:h-[500px]"
-              />
+              <Link href={"/menu"}>
+                <Image
+                  src={"/images/home/menu/image2.png"}
+                  width={677}
+                  height={503}
+                  alt="image"
+                  className="h-[300px] w-full object-cover md:h-[500px]"
+                />
+              </Link>
             </motion.div>
             <h6 className="text-center font-times_new_roman text-2xl font-[400] capitalize text-[#000] md:text-3xl md:tracking-[1.52px]">
               breakfast
@@ -92,13 +97,15 @@ const Menu: React.FC = () => {
               viewport={{ once: false, amount: 0.5 }}
               transition={{ duration: 1.5, ease: "easeOut" }}
             >
-              <Image
-                src={"/images/home/menu/image3.png"}
-                width={677}
-                height={503}
-                alt="image"
-                className="h-[300px] w-full object-cover md:h-[500px]"
-              />
+              <Link href={"/menu"}>
+                <Image
+                  src={"/images/home/menu/image3.png"}
+                  width={677}
+                  height={503}
+                  alt="image"
+                  className="h-[300px] w-full object-cover md:h-[500px]"
+                />
+              </Link>
             </motion.div>
             <h6 className="text-center font-times_new_roman text-2xl font-[400] capitalize text-[#000] md:text-3xl md:tracking-[1.52px]">
               wraps
@@ -112,13 +119,15 @@ const Menu: React.FC = () => {
               viewport={{ once: false, amount: 0.5 }}
               transition={{ duration: 1.5, ease: "easeOut" }}
             >
-              <Image
-                src={"/images/home/menu/image4.png"}
-                width={677}
-                height={503}
-                alt="image"
-                className="h-[300px] w-full object-cover md:h-[500px]"
-              />
+              <Link href={"/menu"}>
+                <Image
+                  src={"/images/home/menu/image4.png"}
+                  width={677}
+                  height={503}
+                  alt="image"
+                  className="h-[300px] w-full object-cover md:h-[500px]"
+                />
+              </Link>
             </motion.div>
             <h6 className="text-center font-times_new_roman text-2xl font-[400] capitalize text-[#000] md:text-3xl md:tracking-[1.52px]">
               desserts
@@ -135,13 +144,15 @@ const Menu: React.FC = () => {
               viewport={{ once: false, amount: 0.5 }}
               transition={{ duration: 1.5, ease: "easeOut" }}
             >
-              <Image
-                src={"/images/home/menu/image1.png"}
-                width={677}
-                height={503}
-                alt="image"
-                className="h-[250px] w-full object-cover md:h-[500px]"
-              />
+              <Link href={"/menu"}>
+                <Image
+                  src={"/images/home/menu/image1.png"}
+                  width={677}
+                  height={503}
+                  alt="image"
+                  className="h-[250px] w-full object-cover md:h-[500px]"
+                />
+              </Link>
             </motion.div>
             <h6 className="text-center font-times_new_roman text-2xl font-[400] capitalize text-[#000] md:text-3xl md:tracking-[1.52px]">
               Shawarma Manouche
@@ -155,13 +166,15 @@ const Menu: React.FC = () => {
               viewport={{ once: false, amount: 0.5 }}
               transition={{ duration: 1.5, ease: "easeOut" }}
             >
-              <Image
-                src={"/images/home/menu/image2.png"}
-                width={677}
-                height={503}
-                alt="image"
-                className="h-[250px] w-full object-cover md:h-[500px]"
-              />
+              <Link href={"/menu"}>
+                <Image
+                  src={"/images/home/menu/image2.png"}
+                  width={677}
+                  height={503}
+                  alt="image"
+                  className="h-[250px] w-full object-cover md:h-[500px]"
+                />
+              </Link>
             </motion.div>
             <h6 className="text-center font-times_new_roman text-2xl font-[400] capitalize text-[#000] md:text-3xl md:tracking-[1.52px]">
               breakfast
@@ -175,13 +188,15 @@ const Menu: React.FC = () => {
               viewport={{ once: false, amount: 0.5 }}
               transition={{ duration: 1.5, ease: "easeOut" }}
             >
-              <Image
-                src={"/images/home/menu/image3.png"}
-                width={677}
-                height={503}
-                alt="image"
-                className="h-[250px] w-full object-cover md:h-[500px]"
-              />
+              <Link href={"/menu"}>
+                <Image
+                  src={"/images/home/menu/image3.png"}
+                  width={677}
+                  height={503}
+                  alt="image"
+                  className="h-[250px] w-full object-cover md:h-[500px]"
+                />
+              </Link>
             </motion.div>
             <h6 className="text-center font-times_new_roman text-2xl font-[400] capitalize text-[#000] md:text-3xl md:tracking-[1.52px]">
               wraps
@@ -195,13 +210,16 @@ const Menu: React.FC = () => {
               viewport={{ once: false, amount: 0.5 }}
               transition={{ duration: 1.5, ease: "easeOut" }}
             >
-              <Image
-                src={"/images/home/menu/image4.png"}
-                width={677}
-                height={503}
-                alt="image"
-                className="h-[250px] w-full object-cover md:h-[500px]"
-              />
+              <Link href={"/menu"}>
+                {" "}
+                <Image
+                  src={"/images/home/menu/image4.png"}
+                  width={677}
+                  height={503}
+                  alt="image"
+                  className="h-[250px] w-full object-cover md:h-[500px]"
+                />
+              </Link>
             </motion.div>
             <h6 className="text-center font-times_new_roman text-2xl font-[400] capitalize text-[#000] md:text-3xl md:tracking-[1.52px]">
               desserts
