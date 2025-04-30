@@ -12,10 +12,24 @@ function SocialMedia() {
           Slide Into Our socials
         </p>
         <div className="flex w-full items-center justify-between px-4 py-3 md:px-[100px] md:py-16">
-          <Icons.instagram className="h-12 w-12 text-[#58100E] md:h-24 md:w-24" />
-          <p className="font-sofia_sans text-xl font-[600] uppercase tracking-[2px] text-[#58100E] md:text-4xl">
+          <Link
+            href={
+              "https://www.instagram.com/zaloscafelymm?igsh=MWpmbGlkYWM2NmQ5MQ%3D%3D"
+            }
+            target="_blank"
+          >
+            <Icons.instagram className="h-12 w-12 text-[#58100E] md:h-24 md:w-24" />
+          </Link>
+
+          <Link
+            href={
+              "https://www.instagram.com/zaloscafelymm?igsh=MWpmbGlkYWM2NmQ5MQ%3D%3D"
+            }
+            target="_blank"
+            className="font-sofia_sans text-xl font-[600] uppercase tracking-[2px] text-[#58100E] md:text-4xl"
+          >
             @loremepsum
-          </p>
+          </Link>
         </div>
         <motion.div
           className="grid w-full grid-cols-1 gap-3 md:grid-cols-3"
@@ -101,11 +115,24 @@ function SocialMedia() {
                 alt="logo"
                 className="w-12"
               /> */}
-              <Icons.instagram className="h-24 w-24 text-[#58100E]" />
+              <Link
+                href={
+                  "https://www.instagram.com/zaloscafelymm?igsh=MWpmbGlkYWM2NmQ5MQ%3D%3D"
+                }
+                target="_blank"
+              >
+                <Icons.instagram className="h-24 w-24 text-[#58100E]" />
+              </Link>
               <div>
-                <p className="font-sofia_sans text-xl font-[600] uppercase tracking-[2px] text-[#58100E] md:text-4xl">
+                <Link
+                  href={
+                    "https://www.instagram.com/zaloscafelymm?igsh=MWpmbGlkYWM2NmQ5MQ%3D%3D"
+                  }
+                  target="_blank"
+                  className="font-sofia_sans text-xl font-[600] uppercase tracking-[2px] text-[#58100E] md:text-4xl"
+                >
                   @loremepsum
-                </p>
+                </Link>
               </div>
             </motion.div>
             <div className="w-full md:w-[25%]">
