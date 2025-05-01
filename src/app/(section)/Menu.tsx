@@ -33,7 +33,7 @@ const data = [
 
 const Menu: React.FC = () => {
   return (
-    <section className="h-full w-full bg-[#fff6eb] px-4 py-8 md:px-0 md:py-20">
+    <section className="h-full w-full bg-[#6f4e37] px-4 py-8 md:px-0 md:py-20">
       <div className="flex h-full w-full flex-col items-center justify-center gap-10 md:gap-16">
         <div className="flex flex-col items-center justify-center gap-2">
           <span className="text-center font-playfair text-sm font-[400] capitalize tracking-[1.2px] text-[#040404]">

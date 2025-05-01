@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 
 function ReserveNew() {
   return (
-    <section className="h-full w-full py-12">
+    <section className="h-full w-full bg-[#6f4e37] py-12">
       <div className="hidden h-full w-full flex-col md:flex md:flex-row">
         <div className="w-full md:w-1/3">
           <Image
@@ -34,19 +34,17 @@ function ReserveNew() {
               className="z-0 h-auto w-full object-cover"
             />
           </div>
-          <p className="z-50 font-playfair capitalize text-[#58100E]">
-            booking
-          </p>
-          <p className="z-50 font-times_new_roman text-6xl text-[#58100E]">
+          <p className="z-50 font-playfair capitalize text-[#000]">booking</p>
+          <p className="z-50 font-times_new_roman text-6xl text-[#000]">
             Reserve Your Table <span className="italic">at Zalo’s Cafe</span>
           </p>
-          <p className="z-50 font-inter text-sm font-[300] text-[#58100E]">
+          <p className="z-50 font-inter text-sm font-[300] text-[#000]">
             Experience the warmth of Zalo’s Cafe, where great coffee meets a
             cozy ambiance. Book your table now and enjoy a delightful dining
             experience filled with rich flavours, handcrafted beverages, and a
             welcoming atmosphere.
           </p>
-          <Button className="z-50 flex w-fit items-center justify-center gap-1 rounded-full bg-[#58100E] px-6 py-7 text-[#fff] hover:bg-[#8a4846]">
+          <Button className="z-50 flex w-fit items-center justify-center gap-1 rounded-full bg-[#000] px-6 py-7 text-[#fff] hover:bg-[#111]">
             <Link href={"/table-booking"}>
               <span className="font-playfair text-lg">Book Now</span>
             </Link>
@@ -88,20 +86,20 @@ function ReserveNew() {
               className="z-0 h-auto w-full object-cover"
             />
           </div>
-          <p className="z-50 text-center font-playfair capitalize text-[#58100E]">
+          <p className="z-50 text-center font-playfair capitalize text-[#000]">
             booking
           </p>
-          <p className="z-50 text-center font-times_new_roman text-4xl text-[#58100E]">
+          <p className="z-50 text-center font-times_new_roman text-4xl text-[#000]">
             Reserve Your Table <span className="italic">at Zalo’s Cafe</span>
           </p>
-          <p className="z-50 text-center font-inter text-sm font-[300] text-[#58100E]">
+          <p className="z-50 text-center font-inter text-sm font-[300] text-[#000]">
             Experience the warmth of Zalo’s Cafe, where great coffee meets a
             cozy ambiance. Book your table now and enjoy a delightful dining
             experience filled with rich flavours, handcrafted beverages, and a
             welcoming atmosphere.
           </p>
           <div className="z-50 flex items-center justify-center">
-            <Button className="z-50 flex items-center justify-center gap-1 rounded-full bg-[#58100E] px-6 py-7 text-[#fff] hover:bg-[#8a4846]">
+            <Button className="z-50 flex items-center justify-center gap-1 rounded-full bg-[#000] px-6 py-7 text-[#fff] hover:bg-[#111]">
               <Link href={"/table-booking"}>
                 <span className="font-playfair text-lg">Book Now</span>
               </Link>

@@ -177,7 +177,7 @@ const TimeForm: FC<TimeFormProps> = ({ mainform, setpage }) => {
                         <SelectItem
                           key={num}
                           value={num.toString()}
-                          className="text-[#000]"
+                          className="text-[#6f4e37]"
                         >
                           {num} {num === 1 ? "Guest" : "Guests"}
                         </SelectItem>
@@ -200,7 +200,7 @@ const TimeForm: FC<TimeFormProps> = ({ mainform, setpage }) => {
                       <FormControl>
                         <Button
                           variant={"outline"}
-                          className={`h-12 w-full justify-start border-[#000] bg-transparent text-left font-normal text-[#000] hover:bg-[#5E1817] hover:text-[#000]`}
+                          className={`h-12 w-full justify-start border-[#000] bg-transparent text-left font-normal text-[#000] hover:bg-[#6f4e37] hover:text-[#000]`}
                         >
                           <CalendarIcon className="mr-2 h-4 w-4 text-[#000]" />
                           {field.value ? (
@@ -256,7 +256,7 @@ const TimeForm: FC<TimeFormProps> = ({ mainform, setpage }) => {
                       <SelectContent className="max-h-[300px]">
                         {generateTimeSlots().map((time) => (
                           <SelectItem
-                            className="text-[#000]"
+                            className="text-[#6f4e37]"
                             key={time}
                             value={time}
                           >
@@ -283,7 +283,7 @@ const TimeForm: FC<TimeFormProps> = ({ mainform, setpage }) => {
                     onClick={() => form.setValue("time", time)}
                     className={cn(
                       "flex h-full w-full cursor-pointer items-center justify-center border-[1px] border-[#000] py-4 text-[#000]",
-                      form.watch("time") === time && "border-[#5E1817]",
+                      form.watch("time") === time && "border-[#6f4e37]",
                     )}
                   >
                     {time}
@@ -293,7 +293,7 @@ const TimeForm: FC<TimeFormProps> = ({ mainform, setpage }) => {
             </div>
           )}
           <Button
-            className="w-fit bg-[#5E1817] px-6 py-6 text-[#fff] hover:bg-secondary"
+            className="w-fit bg-[#000] px-6 py-6 text-[#fff] hover:bg-[#111]"
             disabled={disable}
           >
             Book A Table

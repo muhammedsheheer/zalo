@@ -73,7 +73,7 @@ const OPTIONS: EmblaOptionsType = { loop: true };
 const Special = ({}) => {
   const { modelData } = useRestaurant();
   return (
-    <section className="relative flex h-full w-full justify-center bg-[#58100E] py-12">
+    <section className="relative flex h-full w-full justify-center bg-[#000] py-12">
       <div className="lines">
         <div className="line"></div>
         <div className="line"></div>

@@ -2,9 +2,9 @@ import Image from "next/image";
 
 const BavetteStory = ({}) => {
   return (
-    <section className="relative flex h-full w-full items-center justify-center bg-[#F7F4ED] p-4 lg:py-16">
+    <section className="relative flex h-full w-full items-center justify-center bg-[#6f4e37] p-4 lg:py-16">
       <div className="flex h-full w-full flex-col items-center justify-center gap-11">
-        <h2 className="font-oswald text-center text-5xl text-[#58100E] md:left-[15%] md:text-8xl">
+        <h2 className="font-oswald text-center text-5xl text-[#000] md:left-[15%] md:text-8xl">
           The Zalos Cafe
           <br />
           Story
@@ -20,7 +20,7 @@ const BavetteStory = ({}) => {
             />
           </div>
           <div className="flex h-full w-full flex-col items-center gap-[2.5rem] p-6 md:w-1/2 md:items-start lg:ml-24">
-            <h1 className="font-oswald max-w-[500px] text-center text-5xl text-[#58100E] md:text-start md:text-7xl">
+            <h1 className="font-oswald max-w-[500px] text-center text-5xl text-[#000] md:text-start md:text-7xl">
               From Passion
               <br />
               to Perfection

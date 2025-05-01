@@ -7,10 +7,10 @@ import { motion } from "framer-motion";
 
 const About = () => {
   return (
-    <section className="h-full w-full bg-[#fff6eb] py-12 pl-0 pr-0 md:py-0 md:pl-0 md:pr-0">
+    <section className="h-full w-full bg-[#6f4e37] py-12 pl-0 pr-0 md:py-0 md:pl-0 md:pr-0">
       <div className="flex h-full w-full flex-col items-center justify-center gap-6 md:flex-row md:items-start md:justify-start md:gap-0">
         <motion.div
-          className="hidden w-full bg-[#9B3733] md:block md:w-[16%]"
+          className="hidden w-full bg-[#000] md:block md:w-[16%]"
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: false }}
@@ -74,7 +74,7 @@ const About = () => {
             <Link href={"/menu"}>
               <Button
                 className={
-                  "flex flex-row items-center justify-center gap-1 rounded-none bg-[#9B3733] px-7 py-7 font-playfair text-sm font-[600] capitalize tracking-[1.08px] text-[#F7F4ED] hover:bg-[#8a4846] hover:text-[#F7F4ED]"
+                  "flex flex-row items-center justify-center gap-1 rounded-none bg-[#000] px-7 py-7 font-playfair text-sm font-[600] capitalize tracking-[1.08px] text-[#F7F4ED] hover:bg-[#111] hover:text-[#F7F4ED]"
                 }
               >
                 View Menu <ArrowRight className="w-5 text-[#F7F4ED]" />

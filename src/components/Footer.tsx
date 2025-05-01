@@ -5,7 +5,7 @@ import { Icons } from "./Icon";
 
 const Footer = ({}) => {
   return (
-    <footer className="h-full w-full bg-[#f7f4ed] px-4 pt-2 lg:px-8">
+    <footer className="h-full w-full bg-[#6f4e37] px-4 pt-2 lg:px-8">
       <div className="flex flex-col gap-4 pt-12 md:gap-8 lg:pt-24">
         {/* first  div */}
         <div className="flex flex-col gap-8 md:flex-row md:justify-between md:gap-14 md:px-32">
@@ -25,13 +25,13 @@ const Footer = ({}) => {
               </div>
               <div className="flex flex-col items-center gap-2 md:items-start md:pt-4">
                 <div className="flex flex-col items-center md:items-start">
-                  <span className="flex flex-col text-center font-open_sans text-base font-[600] uppercase tracking-[1px] text-[#323232] md:text-start">
+                  <span className="flex flex-col text-center font-open_sans text-base font-[600] uppercase tracking-[1px] text-[#000] md:text-start">
                     Contact
                   </span>
                   <br />
                   <span>
                     <Link
-                      className="flex flex-col text-center font-open_sans text-base font-[400] uppercase tracking-[1px] text-[#323232] md:text-start"
+                      className="flex flex-col text-center font-open_sans text-base font-[400] uppercase tracking-[1px] text-[#000] md:text-start"
                       target="_blank"
                       href={"https://g.co/kgs/rQAnich"}
                     >
@@ -41,7 +41,7 @@ const Footer = ({}) => {
                   <br />
                   <span>
                     <Link
-                      className="font-open_sans text-base font-[400] uppercase tracking-[1px] text-[#323232]"
+                      className="font-open_sans text-base font-[400] uppercase tracking-[1px] text-[#000]"
                       href={"tel:+441925982168"}
                     >
                       +44 1925 982168
@@ -49,7 +49,7 @@ const Footer = ({}) => {
                   </span>
                   <span>
                     <Link
-                      className="font-open_sans text-base font-[400] uppercase tracking-[1px] text-[#323232]"
+                      className="font-open_sans text-base font-[400] uppercase tracking-[1px] text-[#000]"
                       href={"mailto:info@zaloscafe.co.uk"}
                     >
                       info@zaloscafe.co.uk
@@ -64,7 +64,7 @@ const Footer = ({}) => {
                   }
                   target="_blank"
                 >
-                  <Icons.instagram className="text-[#323232]" />
+                  <Icons.instagram className="text-[#000]" />
                 </Link>
                 {/* <Link
                   href={
@@ -72,10 +72,10 @@ const Footer = ({}) => {
                   }
                   target="_blank"
                 >
-                  <Icons.unknown className="text-[#323232]" />
+                  <Icons.unknown className="text-[#000]" />
                 </Link> */}
                 <Link href={"https://g.co/kgs/rQAnich"} target="_blank">
-                  <Icons.google className="text-[#323232]" />
+                  <Icons.google className="text-[#000]" />
                 </Link>
                 <Link
                   href={
@@ -83,27 +83,27 @@ const Footer = ({}) => {
                   }
                   target="_blank"
                 >
-                  <Icons.facebook className="text-[#323232]" />
+                  <Icons.facebook className="text-[#000]" />
                 </Link>
               </div>
             </div>
             <div className="hidden flex-col items-center justify-center gap-4 md:mt-24 md:flex md:items-start md:gap-6">
               <Link
                 href={"/"}
-                className="font-open_sans text-base font-[400] uppercase tracking-[2.4px] text-[#323232]"
+                className="font-open_sans text-base font-[400] uppercase tracking-[2.4px] text-[#000]"
               >
                 Home
               </Link>
               <Link
                 href={"/menu"}
-                className="font-open_sans text-base font-[400] uppercase tracking-[2.4px] text-[#323232]"
+                className="font-open_sans text-base font-[400] uppercase tracking-[2.4px] text-[#000]"
               >
                 Menu
               </Link>
 
               <Link
                 href={"/about-us"}
-                className="font-open_sans text-base font-[400] uppercase tracking-[2.4px] text-[#323232]"
+                className="font-open_sans text-base font-[400] uppercase tracking-[2.4px] text-[#000]"
               >
                 About
               </Link>
@@ -116,13 +116,13 @@ const Footer = ({}) => {
               </Link> */}
               <Link
                 href={"/table-booking"}
-                className="font-open_sans text-base font-[400] uppercase tracking-[2.4px] text-[#323232]"
+                className="font-open_sans text-base font-[400] uppercase tracking-[2.4px] text-[#000]"
               >
                 Reservation
               </Link>
               <Link
                 href={"/contact"}
-                className="font-open_sans text-base font-[400] uppercase tracking-[2.4px] text-[#323232]"
+                className="font-open_sans text-base font-[400] uppercase tracking-[2.4px] text-[#000]"
               >
                 Contact Us
               </Link>
@@ -131,37 +131,37 @@ const Footer = ({}) => {
 
           {/* sub second  div */}
           <div className="flex w-full flex-col items-center gap-2 md:w-[400px] md:items-start md:pt-16">
-            <h6 className="font-open_sans text-base font-[600] uppercase tracking-[2.2px] text-[#323232] md:pb-4">
+            <h6 className="font-open_sans text-base font-[600] uppercase tracking-[2.2px] text-[#000] md:pb-4">
               Opening Hours
             </h6>
             <div className="flex flex-col items-center gap-4 md:items-start md:gap-6">
-              <div className="h-full w-full border-b-[1px] border-b-[#D9D9D9]" />
+              <div className="h-full w-full border-b-[1px] border-b-[#000]" />
 
               <div className="flex w-full flex-row gap-4 md:w-[400px] md:justify-between">
-                <span className="font-open_sans text-base font-[400] uppercase tracking-[1.96px] text-[#323232]">
+                <span className="font-open_sans text-base font-[400] uppercase tracking-[1.96px] text-[#000]">
                   Monday - Thursday{" "}
                 </span>
-                <span className="font-open_sans text-base font-[400] uppercase tracking-[1.96px] text-[#323232]">
+                <span className="font-open_sans text-base font-[400] uppercase tracking-[1.96px] text-[#000]">
                   8:30 AM - 4:30 PM{" "}
                 </span>
               </div>
-              <div className="h-full w-full border-b-[1px] border-b-[#D9D9D9]" />
+              <div className="h-full w-full border-b-[1px] border-b-[#000]" />
 
               <div className="flex w-full flex-row gap-4 md:w-[400px] md:justify-between">
-                <span className="font-open_sans text-base font-[400] uppercase tracking-[1.96px] text-[#323232]">
+                <span className="font-open_sans text-base font-[400] uppercase tracking-[1.96px] text-[#000]">
                   Friday - Saturday{" "}
                 </span>
-                <span className="font-open_sans text-base font-[400] uppercase tracking-[1.96px] text-[#323232]">
+                <span className="font-open_sans text-base font-[400] uppercase tracking-[1.96px] text-[#000]">
                   8:30 AM - 5:00 PM{" "}
                 </span>
               </div>
-              <div className="h-full w-full border-b-[1px] border-b-[#D9D9D9]" />
+              <div className="h-full w-full border-b-[1px] border-b-[#000]" />
 
               <div className="flex w-full flex-row gap-4 md:w-[400px] md:justify-between">
-                <span className="font-open_sans text-base font-[400] uppercase tracking-[1.96px] text-[#323232]">
+                <span className="font-open_sans text-base font-[400] uppercase tracking-[1.96px] text-[#000]">
                   Sunday{" "}
                 </span>
-                <span className="font-open_sans text-base font-[400] uppercase tracking-[1.96px] text-[#323232]">
+                <span className="font-open_sans text-base font-[400] uppercase tracking-[1.96px] text-[#000]">
                   8:30 AM - 4:00 PM{" "}
                 </span>
               </div>
@@ -171,14 +171,14 @@ const Footer = ({}) => {
 
         {/* second  div */}
         <div className="flex flex-col gap-4">
-          <div className="h-full w-full border-b-[1px] border-b-[#D9D9D9]" />
+          <div className="h-full w-full border-b-[1px] border-b-[#000]" />
           <div className="flex flex-col items-center justify-center gap-1 md:flex-row md:items-start md:justify-between">
             <Link href={"https://foodo.ai/"} target="_blank">
-              <span className="pb-6 font-open_sans text-xs font-[400] lowercase tracking-[1px] text-[#323232]">
+              <span className="pb-6 font-open_sans text-xs font-[400] lowercase tracking-[1px] text-[#000]">
                 Powerd by fo0do{" "}
               </span>
             </Link>
-            <p className="pb-6 font-open_sans text-xs font-[400] lowercase tracking-[1px] text-[#323232]">
+            <p className="pb-6 font-open_sans text-xs font-[400] lowercase tracking-[1px] text-[#000]">
               © 2025 ZALO`S CAFE ALL RIGHTS RESERVED
             </p>
           </div>

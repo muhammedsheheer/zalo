@@ -138,7 +138,7 @@ const CustomerDetails: FC<CustomerDetailsProps> = ({
                     <SelectValue placeholder="Select Booking Place" />
                   </SelectTrigger>
                 </FormControl>
-                <SelectContent className="max-h-[300px] text-[#000]">
+                <SelectContent className="max-h-[300px] text-[#6f4e37]">
                   <SelectItem value="Terrace">Terrace</SelectItem>
                   <SelectItem value="Restaurent">Restaurent</SelectItem>
                 </SelectContent>
@@ -169,7 +169,7 @@ const CustomerDetails: FC<CustomerDetailsProps> = ({
       <div className="flex w-full justify-center">
         <Button
           type="submit"
-          className="w-fit bg-[#5E1817] px-7 py-6 text-[#fff] hover:bg-secondary md:float-right md:w-fit"
+          className="w-fit bg-[#000] px-7 py-6 text-[#fff] hover:bg-[#111] md:float-right md:w-fit"
           disabled={bookTableMutation.isPending}
         >
           {bookTableMutation.isPending ? "Booking..." : "Book A Table"}
