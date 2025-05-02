@@ -4,18 +4,18 @@ const Hero = ({}) => {
   return (
     <section
       id="hero"
-      className="mt flex w-full items-center justify-center bg-[#6f4e37] md:mt-40"
+      className="mt flex w-full items-center justify-center bg-[#2c2323] md:mt-40"
     >
       <div className="relative flex min-h-[100vh] w-full items-center justify-center">
         <div className="flex w-full flex-col gap-6 px-4 lg:flex-row lg:gap-0 lg:px-0">
           <div className="flex w-full items-center justify-center lg:w-1/2">
             <div className="mt-20 flex flex-col items-start gap-6 lg:mt-0 lg:w-8/12">
-              <h1 className="font-oswald text-5xl font-semibold text-[#000] md:leading-[66px] lg:text-6xl">
+              <h1 className="font-oswald text-5xl font-semibold text-[#fff] md:leading-[66px] lg:text-6xl">
                 {" "}
                 Welcome to Zalos Cafe
                 <br /> A Symphony of Flavors
               </h1>
-              <p className="font-manrope font-normal text-black">
+              <p className="font-manrope font-normal text-[#fff]">
                 At Zalos Cafe, every dish is a celebration of rich traditions
                 and bold flavors. From the finest ingredients to time-honored
                 recipes, we bring you an unforgettable dining experience

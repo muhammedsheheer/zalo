@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 
 const Highlights: React.FC = () => {
   return (
-    <section className="h-full w-full bg-[#6f4e37] px-0 py-8 md:px-0 md:py-16">
+    <section className="h-full w-full bg-[#2c2323] px-0 py-8 md:px-0 md:py-16">
       <div className="hidden flex-col gap-6 md:flex md:flex-row">
         <div className="relative w-full md:hidden md:w-[25%]">
           <div className="absolute inset-0 z-0 flex items-center justify-center">
@@ -28,10 +28,10 @@ const Highlights: React.FC = () => {
                 className="z-0 h-[300px] w-full md:h-[650px]"
               />
             </div>
-            <span className="text-center font-playfair text-sm font-[400] capitalize tracking-[1.2px] text-[#000]">
+            <span className="text-center font-playfair text-sm font-[400] capitalize tracking-[1.2px] text-[#fff]">
               Specials
             </span>
-            <h1 className="text-center font-times_new_roman text-5xl font-[400] capitalize text-[#000] md:text-7xl">
+            <h1 className="text-center font-times_new_roman text-5xl font-[400] capitalize text-[#fff] md:text-7xl">
               Zalo’s <br /> CAFE <br /> highlights
             </h1>
           </div>
@@ -115,10 +115,10 @@ const Highlights: React.FC = () => {
                 className="z-0 h-auto w-full object-cover"
               />
             </div>
-            <span className="font-playfair text-sm font-[400] capitalize tracking-[1.2px] text-[#000]">
+            <span className="font-playfair text-sm font-[400] capitalize tracking-[1.2px] text-[#fff]">
               Specials
             </span>
-            <h1 className="font-times_new_roman text-5xl font-[400] capitalize text-[#000] md:text-5xl">
+            <h1 className="font-times_new_roman text-5xl font-[400] capitalize text-[#fff] md:text-5xl">
               Zalo’s <br /> CAFE <br /> highlights
             </h1>
           </div>

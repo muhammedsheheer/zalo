@@ -56,7 +56,7 @@ const Navbar = ({
               className={`text-center font-playfair text-sm font-[400] capitalize tracking-[1.106px] ${
                 pathname === "/" || pathname === "/table-booking"
                   ? "text-[#fff]"
-                  : "text-[#000]"
+                  : "text-[#fff]"
               } hover:underline`}
             >
               Home
@@ -67,7 +67,7 @@ const Navbar = ({
               className={`text-center font-playfair text-sm font-[400] capitalize tracking-[1.106px] ${
                 pathname === "/" || pathname === "/table-booking"
                   ? "text-[#fff]"
-                  : "text-[#000]"
+                  : "text-[#fff]"
               } hover:underline`}
             >
               Menu
@@ -78,7 +78,7 @@ const Navbar = ({
               className={`text-center font-playfair text-sm font-[400] capitalize tracking-[1.106px] ${
                 pathname === "/" || pathname === "/table-booking"
                   ? "text-[#fff]"
-                  : "text-[#000]"
+                  : "text-[#fff]"
               } hover:underline`}
             >
               About
@@ -89,7 +89,7 @@ const Navbar = ({
               className={`text-center font-playfair text-sm font-[400] capitalize tracking-[1.106px] ${
                 pathname === "/" || pathname === "/table-booking"
                   ? "text-[#fff]"
-                  : "text-[#000]"
+                  : "text-[#fff]"
               } hover:underline`}
             >
               Contact
@@ -101,7 +101,7 @@ const Navbar = ({
                 className={`flex flex-row items-center justify-center gap-1 px-7 py-7 font-playfair text-sm font-[600] capitalize tracking-[1.08px] ${
                   pathname === "/" || pathname === "/table-booking"
                     ? "text-[#F7F4ED] hover:text-[#F7F4ED]"
-                    : "text-[#000] hover:text-[#000]"
+                    : "text-[#fff] hover:text-[#f6f2f2]"
                 }`}
                 style={{
                   borderRadius: "999px",
@@ -114,7 +114,7 @@ const Navbar = ({
                   className={`${
                     pathname === "/" || pathname === "/table-booking"
                       ? "w-5 text-[#F7F4ED]"
-                      : "w-5 text-[#000]"
+                      : "w-5 text-[#fff]"
                   }`}
                 />
               </Button>
@@ -163,13 +163,13 @@ const EqualizerIcon: React.FC = () => {
   return (
     <div className="equalizer-icon rotate">
       <div
-        className={clsx("bar", pathname === "/" ? "bg-[#fff]" : "bg-[#5E1817]")}
+        className={clsx("bar", pathname === "/" ? "bg-[#fff]" : "bg-[#fff]")}
       ></div>
       <div
-        className={clsx("bar", pathname === "/" ? "bg-[#fff]" : "bg-[#5E1817]")}
+        className={clsx("bar", pathname === "/" ? "bg-[#fff]" : "bg-[#fff]")}
       ></div>
       <div
-        className={clsx("bar", pathname === "/" ? "bg-[#fff]" : "bg-[#5E1817]")}
+        className={clsx("bar", pathname === "/" ? "bg-[#fff]" : "bg-[#fff]")}
       ></div>
     </div>
   );

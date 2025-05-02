@@ -119,7 +119,7 @@ const Reviews = () => {
   const { reviews } = useRestaurant();
 
   return (
-    <section className="relative flex h-full w-full justify-center bg-[#000] pb-28 pt-10 md:pb-32 md:pt-16">
+    <section className="relative flex h-full w-full justify-center bg-[#070D0F] pb-28 pt-10 md:pb-32 md:pt-16">
       <div className="lines">
         <div className="line"></div>
         <div className="line"></div>

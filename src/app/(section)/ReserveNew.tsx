@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 
 function ReserveNew() {
   return (
-    <section className="h-full w-full bg-[#6f4e37] py-12">
+    <section className="h-full w-full bg-[#2c2323] py-12">
       <div className="hidden h-full w-full flex-col md:flex md:flex-row">
         <div className="w-full md:w-1/3">
           <Image
@@ -34,11 +34,11 @@ function ReserveNew() {
               className="z-0 h-auto w-full object-cover"
             />
           </div>
-          <p className="z-50 font-playfair capitalize text-[#000]">booking</p>
-          <p className="z-50 font-times_new_roman text-6xl text-[#000]">
+          <p className="z-50 font-playfair capitalize text-[#fff]">booking</p>
+          <p className="z-50 font-times_new_roman text-6xl text-[#fff]">
             Reserve Your Table <span className="italic">at Zalo’s Cafe</span>
           </p>
-          <p className="z-50 font-inter text-sm font-[300] text-[#000]">
+          <p className="z-50 font-inter text-sm font-[300] text-[#fff]">
             Experience the warmth of Zalo’s Cafe, where great coffee meets a
             cozy ambiance. Book your table now and enjoy a delightful dining
             experience filled with rich flavours, handcrafted beverages, and a
@@ -86,13 +86,13 @@ function ReserveNew() {
               className="z-0 h-auto w-full object-cover"
             />
           </div>
-          <p className="z-50 text-center font-playfair capitalize text-[#000]">
+          <p className="z-50 text-center font-playfair capitalize text-[#fff]">
             booking
           </p>
-          <p className="z-50 text-center font-times_new_roman text-4xl text-[#000]">
+          <p className="z-50 text-center font-times_new_roman text-4xl text-[#fff]">
             Reserve Your Table <span className="italic">at Zalo’s Cafe</span>
           </p>
-          <p className="z-50 text-center font-inter text-sm font-[300] text-[#000]">
+          <p className="z-50 text-center font-inter text-sm font-[300] text-[#fff]">
             Experience the warmth of Zalo’s Cafe, where great coffee meets a
             cozy ambiance. Book your table now and enjoy a delightful dining
             experience filled with rich flavours, handcrafted beverages, and a

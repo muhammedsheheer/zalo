@@ -33,13 +33,13 @@ const data = [
 
 const Menu: React.FC = () => {
   return (
-    <section className="h-full w-full bg-[#6f4e37] px-4 py-8 md:px-0 md:py-20">
+    <section className="h-full w-full bg-[#2c2323] px-4 py-8 md:px-0 md:py-20">
       <div className="flex h-full w-full flex-col items-center justify-center gap-10 md:gap-16">
         <div className="flex flex-col items-center justify-center gap-2">
-          <span className="text-center font-playfair text-sm font-[400] capitalize tracking-[1.2px] text-[#040404]">
+          <span className="text-center font-playfair text-sm font-[400] capitalize tracking-[1.2px] text-[#fff]">
             Menu
           </span>
-          <h1 className="text-center font-times_new_roman text-5xl font-[400] capitalize text-[#040404] md:text-7xl">
+          <h1 className="text-center font-times_new_roman text-5xl font-[400] capitalize text-[#fff] md:text-7xl">
             Explore our menu
           </h1>
         </div>
@@ -63,7 +63,7 @@ const Menu: React.FC = () => {
                 />
               </Link>
             </motion.div>
-            <h6 className="text-center font-times_new_roman text-2xl font-[400] capitalize text-[#000] md:text-3xl md:tracking-[1.52px]">
+            <h6 className="text-center font-times_new_roman text-2xl font-[400] capitalize text-[#fff] md:text-3xl md:tracking-[1.52px]">
               Shawarma Manouche
             </h6>
           </div>
@@ -85,7 +85,7 @@ const Menu: React.FC = () => {
                 />
               </Link>
             </motion.div>
-            <h6 className="text-center font-times_new_roman text-2xl font-[400] capitalize text-[#000] md:text-3xl md:tracking-[1.52px]">
+            <h6 className="text-center font-times_new_roman text-2xl font-[400] capitalize text-[#fff] md:text-3xl md:tracking-[1.52px]">
               breakfast
             </h6>
           </div>
@@ -107,7 +107,7 @@ const Menu: React.FC = () => {
                 />
               </Link>
             </motion.div>
-            <h6 className="text-center font-times_new_roman text-2xl font-[400] capitalize text-[#000] md:text-3xl md:tracking-[1.52px]">
+            <h6 className="text-center font-times_new_roman text-2xl font-[400] capitalize text-[#fff] md:text-3xl md:tracking-[1.52px]">
               wraps
             </h6>
           </div>
@@ -129,7 +129,7 @@ const Menu: React.FC = () => {
                 />
               </Link>
             </motion.div>
-            <h6 className="text-center font-times_new_roman text-2xl font-[400] capitalize text-[#000] md:text-3xl md:tracking-[1.52px]">
+            <h6 className="text-center font-times_new_roman text-2xl font-[400] capitalize text-[#fff] md:text-3xl md:tracking-[1.52px]">
               desserts
             </h6>
           </div>
@@ -154,7 +154,7 @@ const Menu: React.FC = () => {
                 />
               </Link>
             </motion.div>
-            <h6 className="text-center font-times_new_roman text-2xl font-[400] capitalize text-[#000] md:text-3xl md:tracking-[1.52px]">
+            <h6 className="text-center font-times_new_roman text-2xl font-[400] capitalize text-[#fff] md:text-3xl md:tracking-[1.52px]">
               Shawarma Manouche
             </h6>
           </div>
@@ -176,7 +176,7 @@ const Menu: React.FC = () => {
                 />
               </Link>
             </motion.div>
-            <h6 className="text-center font-times_new_roman text-2xl font-[400] capitalize text-[#000] md:text-3xl md:tracking-[1.52px]">
+            <h6 className="text-center font-times_new_roman text-2xl font-[400] capitalize text-[#fff] md:text-3xl md:tracking-[1.52px]">
               breakfast
             </h6>
           </div>
@@ -198,7 +198,7 @@ const Menu: React.FC = () => {
                 />
               </Link>
             </motion.div>
-            <h6 className="text-center font-times_new_roman text-2xl font-[400] capitalize text-[#000] md:text-3xl md:tracking-[1.52px]">
+            <h6 className="text-center font-times_new_roman text-2xl font-[400] capitalize text-[#fff] md:text-3xl md:tracking-[1.52px]">
               wraps
             </h6>
           </div>
@@ -221,7 +221,7 @@ const Menu: React.FC = () => {
                 />
               </Link>
             </motion.div>
-            <h6 className="text-center font-times_new_roman text-2xl font-[400] capitalize text-[#000] md:text-3xl md:tracking-[1.52px]">
+            <h6 className="text-center font-times_new_roman text-2xl font-[400] capitalize text-[#fff] md:text-3xl md:tracking-[1.52px]">
               desserts
             </h6>
           </div>

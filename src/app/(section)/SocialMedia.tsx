@@ -6,9 +6,9 @@ import Link from "next/link";
 
 function SocialMedia() {
   return (
-    <section className="h-full w-full bg-[#6f4e37] px-2 pt-20 md:px-[60px]">
+    <section className="h-full w-full bg-[#2c2323] px-2 pt-20 md:px-[60px]">
       <div className="hidden h-fit w-full flex-col gap-7 md:flex">
-        <p className="w-full text-center font-times_new_roman text-4xl text-black md:text-6xl">
+        <p className="w-full text-center font-times_new_roman text-4xl text-[#fff] md:text-6xl">
           Slide Into Our socials
         </p>
         <div className="flex w-full items-center justify-between px-4 py-3 md:px-[100px] md:py-16">
@@ -18,7 +18,7 @@ function SocialMedia() {
             }
             target="_blank"
           >
-            <Icons.instagram className="h-12 w-12 text-[#000] md:h-24 md:w-24" />
+            <Icons.instagram className="h-12 w-12 text-[#fff] md:h-24 md:w-24" />
           </Link>
 
           <Link
@@ -26,9 +26,9 @@ function SocialMedia() {
               "https://www.instagram.com/zaloscafelymm?igsh=MWpmbGlkYWM2NmQ5MQ%3D%3D"
             }
             target="_blank"
-            className="font-sofia_sans text-xl font-[600] uppercase tracking-[2px] text-[#000] md:text-4xl"
+            className="font-sofia_sans text-xl font-[600] uppercase tracking-[2px] text-[#fff] md:text-4xl"
           >
-            @loremepsum
+            @zaloscafelymm
           </Link>
         </div>
         <motion.div
@@ -121,7 +121,7 @@ function SocialMedia() {
                 }
                 target="_blank"
               >
-                <Icons.instagram className="h-24 w-24 text-[#000]" />
+                <Icons.instagram className="h-24 w-24 text-[#fff]" />
               </Link>
               <div>
                 <Link
@@ -129,9 +129,9 @@ function SocialMedia() {
                     "https://www.instagram.com/zaloscafelymm?igsh=MWpmbGlkYWM2NmQ5MQ%3D%3D"
                   }
                   target="_blank"
-                  className="font-sofia_sans text-xl font-[600] uppercase tracking-[2px] text-[#000] md:text-4xl"
+                  className="font-sofia_sans text-xl font-[600] uppercase tracking-[2px] text-[#fff] md:text-4xl"
                 >
-                  @loremepsum
+                  @zaloscafelymm
                 </Link>
               </div>
             </motion.div>

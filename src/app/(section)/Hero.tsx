@@ -35,7 +35,7 @@ const Hero: React.FC = () => {
           <Link href={"/menu"}>
             <Button
               className={
-                "flex flex-row items-center justify-center gap-1 rounded-none bg-[#714C23] px-7 py-7 font-playfair text-sm font-[600] capitalize tracking-[1.08px] text-[#F7F4ED] hover:bg-[#976935] hover:text-[#F7F4ED]"
+                "flex flex-row items-center justify-center gap-1 rounded-none bg-[#2c2323] px-7 py-7 font-playfair text-sm font-[600] capitalize tracking-[1.08px] text-[#F7F4ED] hover:bg-[#976935] hover:text-[#F7F4ED]"
               }
             >
               View Menu <ArrowRight className="w-5 text-[#F7F4ED]" />
