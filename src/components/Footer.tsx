@@ -105,7 +105,7 @@ const Footer = ({}) => {
                 href={"/about-us"}
                 className="font-open_sans text-base font-[400] uppercase tracking-[2.4px] text-[#fff]"
               >
-                About
+                Our Story
               </Link>
 
               {/* <Link

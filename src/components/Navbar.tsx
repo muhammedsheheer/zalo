@@ -81,7 +81,7 @@ const Navbar = ({
                   : "text-[#fff]"
               } hover:underline`}
             >
-              About
+              Our Story
             </Link>
 
             <Link

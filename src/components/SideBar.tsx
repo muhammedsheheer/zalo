@@ -46,7 +46,7 @@ const Sidebar: FC<SidebarProps> = ({ children }) => {
               href="/about-us"
               className="flex w-full justify-center p-0 font-playfair text-2xl font-normal text-[#323232]"
             >
-              About
+              Our Story
             </Link>
             <Link
               href="/contact"
