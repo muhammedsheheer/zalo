@@ -64,7 +64,7 @@ const Menu: React.FC = () => {
               </Link>
             </motion.div>
             <h6 className="text-center font-times_new_roman text-2xl font-[400] capitalize text-[#fff] md:text-3xl md:tracking-[1.52px]">
-              Shawarma Manouche
+              Eggs Florentine
             </h6>
           </div>
           <div className="flex w-full flex-col items-center justify-center gap-6 md:w-[30%]">
