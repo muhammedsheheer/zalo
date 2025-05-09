@@ -126,27 +126,7 @@ const CustomerDetails: FC<CustomerDetailsProps> = ({
             </FormItem>
           )}
         />
-        <FormField
-          control={form.control}
-          name="place"
-          render={({ field }) => (
-            <FormItem>
-              <FormLabel className="text-[#fff]">Place</FormLabel>
-              <Select onValueChange={field.onChange} defaultValue={field.value}>
-                <FormControl>
-                  <SelectTrigger className="h-12 border-[#fff] bg-transparent text-[#fff]">
-                    <SelectValue placeholder="Select Booking Place" />
-                  </SelectTrigger>
-                </FormControl>
-                <SelectContent className="max-h-[300px] text-[#fff]">
-                  <SelectItem value="Terrace">Terrace</SelectItem>
-                  <SelectItem value="Restaurent">Restaurent</SelectItem>
-                </SelectContent>
-              </Select>
-              <FormMessage />
-            </FormItem>
-          )}
-        />
+        
       </div>
 
       <FormField
