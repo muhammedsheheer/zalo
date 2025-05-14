@@ -175,7 +175,7 @@ const Footer = ({}) => {
           <div className="flex flex-col items-center justify-center gap-1 md:flex-row md:items-start md:justify-between">
             <Link href={"https://foodo.ai/"} target="_blank">
               <span className="pb-6 font-open_sans text-xs font-[400] lowercase tracking-[1px] text-[#fff]">
-                Powerd by fo0do{" "}
+                Powerd by Foodo {" "}
               </span>
             </Link>
             <p className="pb-6 font-open_sans text-xs font-[400] lowercase tracking-[1px] text-[#fff]">
